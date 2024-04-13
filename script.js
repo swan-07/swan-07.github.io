@@ -1,28 +1,34 @@
-
 document.addEventListener('DOMContentLoaded', () => {
-    var gallery = document.querySelector('#gallery');
-    var msnry = new Masonry(gallery, {
-      itemSelector: '.gallery-item',
-      percentPosition: true,
-      gutter: 16
-    });
-  
-    // Function to filter gallery items
-    window.filterGallery = function(filter) {
-      var items = gallery.querySelectorAll('.gallery-item');
-  
-      items.forEach(item => {
-        if (filter === 'all') {
-          item.style.display = 'block';
-        } else {
-          var isMatch = item.classList.contains(filter);
-          item.style.display = isMatch ? 'block' : 'none';
-        }
+  const gallery = document.querySelector('#gallery');
+  let msnry; // Initialize Masonry variable
+
+  // Initialize Masonry after all images have loaded
+  imagesLoaded(gallery, () => {
+      msnry = new Masonry(gallery, {
+          itemSelector: '.gallery-item',
+          percentPosition: true,
+          columnWidth: '.gallery-item',
+          gutter: 16
       });
-  
-      // Update Masonry layout after filtering
-      msnry.layout();
-    };
   });
-  
-  
+
+  // Function to filter gallery items
+  window.filterGallery = function(filter) {
+      const items = gallery.querySelectorAll('.gallery-item');
+
+      items.forEach(item => {
+          item.classList.toggle('is-hidden', !(filter === 'all' || item.classList.contains(filter)));
+      });
+
+      imagesLoaded(gallery, () => {
+        setTimeout(() => {
+          msnry.reloadItems();
+          // msnry.layout();
+      }, 50);
+    });
+      
+      
+  };
+});
+
+

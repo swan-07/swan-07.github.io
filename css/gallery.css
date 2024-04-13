@@ -121,3 +121,7 @@ a:hover{
     display: block; /* Show on hover */
     height: 100%; /* Extend to cover the whole image */
 }
+
+.is-hidden {
+    display: none;
+}
