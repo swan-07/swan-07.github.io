@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       imagesLoaded(gallery, () => {
         setTimeout(() => {
-          msnry.reloadItems();
+          // msnry.reloadItems();
           // msnry.layout();
       }, 50);
     });
