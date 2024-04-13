@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       items.forEach(item => {
           item.classList.toggle('is-hidden', !(filter === 'all' || item.classList.contains(filter)));
-      });
+      }); 
 
       imagesLoaded(gallery, () => {
         setTimeout(() => {
