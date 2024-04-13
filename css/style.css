@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: white;
+    margin-top: 100px;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Add some top padding to the main content so it doesn't get hidden behind the fixed header */
+main {
+    padding-top: 60px; /* Adjust this value based on your header's height */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: #76b5c5;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#intro img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 40%;
+}
+
+#intro {
+    text-align: center;
+}
+
