@@ -1,3 +1,133 @@
 ---
 ---
 @import "main";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: #eeeee4; /* Light background for the container */
+    margin-top: 100px;
+}
+
+#intro {
+    text-align: center;
+}
+#intro img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 40%;
+}
+
+nav {
+    background: black;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+main {
+    padding-top: 60px; /* Adjust this value based on your header's height */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+a {
+    color: #76b5c5;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#intro img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 40%;
+}
+
+#intro {
+    text-align: center;
+}
+
+#filters button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #1e81b0; /* Primary button color */
+    color: white; /* Text color */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+#filters button:hover {
+    background-color: #063970; /* Darker shade for hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+#filters button:active {
+    transform: scale(0.95); /* Slightly shrink button when clicked */
+}#gallery {
+    /* No need to set display flex or grid, Masonry.js will handle the layout */
+    margin: 2rem auto; /* Center the gallery */
+    max-width: 1200px; /* Set a max width if you wish to constrain the gallery width */
+    gap: 1rem; /* Space between items; Masonry.js will use 'gutter' option */
+}
+
+.gallery-item {
+    max-width: 30%; /* or whatever maximum width you prefer */
+    /* Masonry.js will control the width; you just need to set the margins */
+    margin-bottom: 1rem; /* Space below each card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    border-radius: 8px; /* Rounded corners for aesthetics */
+    background-color: #ffffff; /* White background for cards */
+    overflow: hidden; /* Hide overflow */
+    margin-bottom: 1rem; /* Space below each card */
+    /* No need for flex-basis or width here, masonry.js will position them */
+}
+
+.gallery-item img {
+    width: 100%; /* Make image fill card width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove bottom space */
+}
+
+.gallery-item-info {
+    position: absolute; /* Absolute positioning inside the card */
+    bottom: 0; /* Start from the bottom */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay */
+    color: white; /* Text color */
+    padding: 10px; /* Padding inside the info box */
+    display: none; /* Hide by default */
+    overflow-y: auto; /* Scroll if content overflows */
+    justify-content: center; /* Center text vertically */
+    text-align: center; /* Center text */
+}
+
+.gallery-item:hover .gallery-item-info {
+    display: block; /* Show on hover */
+    height: 100%; /* Extend to cover the whole image */
+}
+
+.is-hidden {
+    display: none;
+}
