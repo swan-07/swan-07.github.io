@@ -1,0 +1,441 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Art</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/icon.png">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Art</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Art" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/art.html" />
+<meta property="og:url" content="http://localhost:4000/art.html" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Art" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Art","url":"http://localhost:4000/art.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <script src="https://unpkg.com/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+  <ul>
+    
+    <li><a href="/" >home</a></li>
+    
+    <li><a href="/projects.html" >projects</a></li>
+    
+    <li><a href="/art.html" class="current">art</a></li>
+    
+    <li><a href="/research.html" >research</a></li>
+    
+    <li><a href="/blog.html" >blog</a></li>
+    
+  </ul>
+
+</nav>
+    <div id="filters">
+    <button onclick="filterGallery('all')">All</button>
+    <button onclick="filterGallery('paint')">Paint</button>
+    <button onclick="filterGallery('colored-pencil')">Colored Pencil</button>
+    <button onclick="filterGallery('pencil')">Pencil</button>
+    <button onclick="filterGallery('pen')">Pen</button>
+    <button onclick="filterGallery('3d')">3D</button>
+    <button onclick="filterGallery('self-portrait')">Self Portrait</button>
+    <button onclick="filterGallery('still-life')">Still Life</button>
+    <button onclick="filterGallery('landscape')">Landscape</button>
+    <button onclick="filterGallery('sketch')">Sketch</button>
+</div>
+
+<div id="gallery">
+    <div class="gallery-item colored-pencil self-portrait">
+        <img src="assets/images/art/attention.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Attention</p>
+            <p>2023</p>
+            <p>An exercise in fine detail with colored pencils. A self portrait. Artistic rendering of a transformer model's architecture.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item pencil still-life">
+        <img src="assets/images/art/basket.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Basket</p>
+            <p>2021</p>
+            <p>Sketch/exercise for still life from art class @ school.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item 3d">
+        <img src="assets/images/art/clouds.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Clouds</p>
+            <p>2021</p>
+            <p>Exercise in cardboard/3d monochromatic art from art class @ school.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item paint">
+        <img src="assets/images/art/dreams.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Dreams</p>
+            <p>2023</p>
+            <p>Painting. Practice in red/white/blue contrasts. First of my recent paintings! The background is Cary Memorial Library in Lexington Center.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item colored-pencil">
+        <img src="assets/images/art/duck.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Duck</p>
+            <p>2015</p>
+            <p>First time I won a prize in art. 1st at the junior duck stamp competition (for my age group in first grade).</p>
+        </div>
+    </div>
+
+    <div class="gallery-item sketch pencil">
+        <img src="assets/images/art/eraser.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Eraser</p>
+            <p>2021</p>
+            <p>Practice zooming in and out for detail in art class.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item sketch">
+        <img src="assets/images/art/fish.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Fish</p>
+            <p>2021</p>
+            <p>Doodle I made when bored, used highlighters.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item sketch pencil">
+        <img src="assets/images/art/gogol.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Gogol</p>
+            <p>2021</p>
+            <p>Sketch I made of Nikolai Gogol when listening to The Namesake.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item ">
+        <img src="assets/images/art/grey.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Grey</p>
+            <p>2024</p>
+            <p>Made with plaster and ink on canvas.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item still-life colored-pencil">
+        <img src="assets/images/art/growth.JPG" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Growth</p>
+            <p>2022</p>
+            <p>My childhood piggy bank! There's sunflower seeds underneath.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item paint">
+        <img src="assets/images/art/home.jpeg" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Home</p>
+            <p>2023</p>
+            <p>Background is in Boston, cat is my friend's.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item still-life colored-pencil pen colored-pencil">
+        <img src="assets/images/art/horizon.JPG" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Home</p>
+            <p>2023</p>
+            <p>My friend as the sun. Mix of different mediums. I've always wanted to go fishing.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item pencil sketch still-life">
+        <img src="assets/images/art/lamp.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Lamp</p>
+            <p>2021</p>
+            <p>More still life practice at art class.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item pen landscape">
+        <img src="assets/images/art/memory.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Memory</p>
+            <p>2024</p>
+            <p>My first ink! Lots of details, from phylogenetic tree of the lionfish to LSTM :)</p>
+        </div>
+    </div>
+
+    <div class="gallery-item paint self-portrait">
+        <img src="assets/images/art/obfuscate.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Obfuscate</p>
+            <p>2022</p>
+            <p>My first painting self-portrait. I've improved a lot in painting since then.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item paint">
+        <img src="assets/images/art/paine.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Thomas Paine</p>
+            <p>2023</p>
+            <p>I was reading Common Sense and decided to draw Paine. This was my first painting portrait after "Obfuscate", and I was happy with how it turned out! It was quick, too, only around 2 hours.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item paint">
+        <img src="assets/images/art/portrait.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Portrait</p>
+            <p>2024</p>
+            <p>Next portrait after Paine, of a friend. I'm happy with how it turned out. My painting skills have come a long way.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item still-life colored-pencil">
+        <img src="assets/images/art/primary.JPG" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Primary</p>
+            <p>2020</p>
+            <p>One of my earliest full pieces. Still holds up well.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item still-life colored-pencil">
+        <img src="assets/images/art/produce.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Produce</p>
+            <p>2020</p>
+            <p>Another of my earliest full pieces. Still holds up well.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item 3d">
+        <img src="assets/images/art/rose.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Rose</p>
+            <p>2021</p>
+            <p>Exercise in complementary colors, for art class.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item pencil sketch">
+        <img src="assets/images/art/self.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Self</p>
+            <p>2022</p>
+            <p>Sketch I did of myself.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item pencil sketch still-life">
+        <img src="assets/images/art/sketch1.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Objects</p>
+            <p>2022</p>
+            <p>Still life sketch practices for art class.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item colored-pencil still-life">
+        <img src="assets/images/art/slipper.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Slipper</p>
+            <p>2022</p>
+            <p>Another older piece that holds up! The older pieces are usually drawn from life, newer pieces are from pictures.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item colored-pencil self-portrait">
+        <img src="assets/images/art/slumber.jpg" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Slumber</p>
+            <p>2020</p>
+            <p>One of my earliest self-portraits. I've improved a lot since then.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item pencil sketch">
+        <img src="assets/images/art/sphere.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Sphere</p>
+            <p>2021</p>
+            <p>Stippling practice with classic shading sphere.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item ">
+        <img src="assets/images/art/swan.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Swan</p>
+            <p>2022</p>
+            <p>Printing practice in art class</p>
+        </div>
+    </div>
+
+    <div class="gallery-item colored-pencil self-portrait">
+        <img src="assets/images/art/thinker.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Think</p>
+            <p>2021</p>
+            <p>My first time touching paint in a while (the fish). I was quite unfamiliar w it! Another self portrait.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item paint">
+        <img src="assets/images/art/tree.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Tree</p>
+            <p>2020</p>
+            <p>Joint painting with a friend, volunteer work for the Lexington Barrier Beautification Project
+            </p>
+        </div>
+    </div>
+
+    <div class="gallery-item pencil sketch still-life">
+        <img src="assets/images/art/tulip.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Tulips</p>
+            <p>2020</p>
+            <p>Unfinished sketch. from life.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item pencil sketch">
+        <img src="assets/images/art/values.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Swan</p>
+            <p>2021</p>
+            <p>Values practice in art class.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item paint landscape">
+        <img src="assets/images/art/view.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>View</p>
+            <p>2024</p>
+            <p>Drawn on the balcony at ASPR in the rain.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item colored-pencil">
+        <img src="assets/images/art/youth.jpg" alt="art piece">
+        <div class="gallery-item-info">
+            <p>View</p>
+            <p>2021</p>
+            <p>Old drawing of my brother.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item ">
+        <img src="assets/images/art/reach.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Untitled</p>
+            <p>2022</p>
+            <p>For art class, inspired by the LHS buildings and Michelangelo. Pastels!</p>
+        </div>
+    </div>
+
+    <div class="gallery-item sketch colored-pencil still-life">
+        <img src="assets/images/art/white.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Untitled</p>
+            <p>2021</p>
+            <p>For art class. Practice sketching objects. I like the white on black. Part of my 5 minute sketch practices.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item sketch pencil still-life">
+        <img src="assets/images/art/5 min.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Untitled</p>
+            <p>2021</p>
+            <p>For art class, 5 minute sketch practice.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item sketch pencil still-life">
+        <img src="assets/images/art/10 min.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Untitled</p>
+            <p>2021</p>
+            <p>10 minute sketch practice for art class.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item sketch pencil still-life">
+        <img src="assets/images/art/pinecone.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Pinecone</p>
+            <p>2021</p>
+            <p>Zoom in practice in art class with a pinecone; 5 and 15 min respectively.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item sketch pencil still-life">
+        <img src="assets/images/art/stapler.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Stapler</p>
+            <p>2021</p>
+            <p>More zoom in practice in art class.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item sketch pencil still-life">
+        <img src="assets/images/art/objects.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Untitled</p>
+            <p>2021</p>
+            <p>More 5 minute object practice for art class.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item colored-pencil">
+        <img src="assets/images/art/dolphin.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Dolphin</p>
+            <p>2021</p>
+            <p>Framed on my bedroom wall. First art prize won in middle school (I won a scholarship in elementary school for a different piece), I got some art supplies.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item colored-pencil">
+        <img src="assets/images/art/folder.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>Folder</p>
+            <p>2021</p>
+            <p>Art folder in art class.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item paint">
+        <img src="assets/images/art/american dream.png" alt="art piece">
+        <div class="gallery-item-info">
+            <p>American Dream</p>
+            <p>2024</p>
+            <p>Drawn for a Spanish project. Art of my friend.</p>
+        </div>
+    </div>
+
+</div>
+  </body>
+</html>
