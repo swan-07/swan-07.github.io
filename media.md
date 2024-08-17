@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Book List
-permalink: /media/
+permalink: /media
 ---
 
 <h1>Media I've Consumed</h1>
