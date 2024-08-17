@@ -197,3 +197,34 @@ a:hover{
   text-align: center; /* Center the text horizontally */
   margin-top: auto; /* Push the paragraph to the bottom */
 }
+
+.media-list {
+  margin: 20px 0;
+}
+
+.media-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.media-item:hover {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  position: relative;
+}
+
+.media-item[title]:hover:after {
+  content: attr(title);
+  display: block;
+  position: absolute;
+  background: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  white-space: nowrap;
+  left: 0;
+  top: 100%;
+  z-index: 10;
+  margin-top: 5px;
+}
