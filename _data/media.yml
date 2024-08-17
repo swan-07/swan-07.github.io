@@ -1,0 +1,110 @@
+- title: "The Red Tent - Diamant"
+  category: "Book"
+  thoughts: "A twist on a Bible story. Read for my Women's Lit class. The book was pretty engaging throughout. I get why we read it, since it showcases a varied cast of female characters, all with their own motivations and beliefs and all that are very much human. I listened to it in audiobook version."
+  datefinished: "Aug 2024"
+  
+- title: "Watchmen - Moore"
+  category: "Other"
+  thoughts: "Yeah, this one's a comic. I read it because people kept saying it was good, and it was, though I wasn't left with a really strong impression of any of the characters. I liked the determinism they were playing with but it didn't really go anywhere much, except one part was really interesting (and reminded me of gwern's conclusion in timecrimes)."
+  datefinished: "Aug 2024"
+
+- title: "The Sandman - Gaiman"
+  category: "Other"
+  thoughts: "Another comic I read because people said it was good. It was, but it doesn't really kick off until you get a few chapters in, and it only stays good for a while. I was a little tired of it by the end (honestly by the brother plotline). I liked how the characters that seemed one off were continuously checked up upon so we could see how their stories unfolded though. Really good Chekov's gun-ing going on."
+  datefinished: "Aug 2024"
+
+- title: "Ghost in the Wires - Mitnick"
+  category: "Book"
+  thoughts: "An autobiography of sorts of a hacker. Makes physical pentesting sound really cool. There's not really technical stuff (at least in a modern context). Most of it is social engineering, but it's a nice story."
+  datefinished: "July 2024"
+
+- title: "Cat's Cradle - Vonnegut"
+  category: "Book"
+  thoughts: "My third Vonnegut story. I was inspired to read it after seeing a friend with 'Cat's Cradle' on his shirt. Listened to it as an audiobook. The ice-9 stuff in interesting and it has the Vonnegut style with all its idiosyncrasies that I liked in Slaughterhouse 9, but it drags on for a little long and I was kind of done with the story near the end."
+  datefinished: "July 2024"
+
+- title: "War Games - Badham"
+  category: "Movie"
+  thoughts: "A classic sci-fi movie. I hosted a movie night at BWSI and this is the movie someone recommended to watch. It was really good, actually. Kind of like Home Alone."
+  datefinished: "July 2024"
+
+- title: "The Phantom Tollbooth - Juster"
+  category: "Book"
+  thoughts: "Cute, short, and sweet children's book. 'Alice in Wonderland' but for math kids instead of cs kids. The rhetoric is funny and the book is easy to get through."
+  datefinished: "July 2024"
+
+- title: "The Alignment Problem - Christian"
+  category: "Book"
+  thoughts: "An amazing book that really teaches you and brings you into the history behind AI Alignment through engaging series of stories (I really liked the baby studies on attention and curiosity). One of the books I received from Non-Trivial (I received and read the Scout Mindset and the Precipice, too. The Precipice was really insightful though the footnote is super long, and the Scout Mindset was a shorter, sweet read. I gave my copy of the Scout Mindset to a friend at ASPR, since I couldn't bring all the books I had back home with me)."
+  datefinished: "June 2024"
+
+- title: "Modeling Social Behavior - Smaldino"
+  category: "Book"
+  thoughts: "Fun book for learning NetLogo and the basics of simulations. Read during ASPR - this was one of the books on the book table."
+  datefinished: "Pre-Summer 2024"
+
+- title: "The Federalist Papers"
+  category: "Other"
+  thoughts: "Listened to it as an audiobook during APUSH because I was curious what their defense was. Adams (or was it Hamilton?) really liked Greek and Roman references (similar to The Prince). Jay's essays were short and sweet, at least. I like Hamilton
+  s point-by-point refutations."
+  datefinished: "Pre-Summer 2024"
+
+- title: "Common Sense - Paine"
+  category: "Book"
+  thoughts: "Read during APUSH because I wanted to see what kind of text could invigorate and entire nation. Honestly, it does a pretty good job! Paine is actually GOATed for this and The American Crisis, basically creating and saving the Revolution. Later on the text becomes a lot of stats, which reminded me of The Precipice."
+  datefinished: "Pre-Summer 2024"
+
+- title: "The Manga Guide to Databases - Takahashi"
+  category: "Other"
+  thoughts: "Yeah, I read it because I thought it would be funny to learn SQL from a manga. Well, it does a pretty good job. The plot's pretty straightforward, but the book suffers from having pages of text and diagrams after every manga excerpt (what's the point of tha manga if I have to read through text later on?)."
+  datefinished: "Pre-Summer 2024"
+
+- title: "Lord of the Flies - Golding"
+  category: "Book"
+  thoughts: "A famous classic and interesting read on interpersonal relationships."
+  datefinished: "Pre-Summer 2024"
+
+- title: "The Great Gatsby - Fitzgerald"
+  category: "Book"
+  thoughts: "Read for English class, but it's always a delight to get a chance to read an American classic. Super short and sweet to get through. The prose is wonderful in how it paints scenes and the middle is super romantic. The ending was also great. A fantastic story, but also has almost the exact same plot as Fitzgerald's earlier story, Winter Dreams."
+  datefinished: "Pre-Summer 2024"
+
+- title: "Shoe Dog - Knight"
+  category: "Book"
+  thoughts: "History of Nike. It's an interesting read to see how Nike was built up."
+  datefinished: "Pre-Summer 2024"
+
+- title: "Interior Chinatown - Yu"
+  category: "Book"
+  thoughts: "Read for junior year English class. I liked it, though I was a little annoyed by the main character's perception of women, and he's pretty unlikeable compared to the big brother. The portrait he tells of his life in a vignette opening one of the later chapters is gut-wrenchingly sad and super poignant. Lots of people at my school said they didn't really get the court scene but I think it's pretty obvious that it's a metaphor for his internal struggle and didn't actually happen (or is a metaphor)?"
+  datefinished: "Pre-Summer 2024"
+
+- title: "Fight Club - Palahniuk"
+  category: "Book"
+  thoughts: "Read because the book was popular. The writing is really good, and it was easy as butter to get through. It helps that the story is super engaging, but Palahniuk's prose is seriously great."
+  datefinished: "Pre-Summer 2024"
+
+- title: "Mayflower"
+  category: "Book"
+  thoughts: "Read for junior year APUSH. It's actually super interesting, about beginning of the settlement of the US. It's cool to see the beginning."
+  datefinished: "Pre-Summer 2024"
+
+- title: "A Certain Ambiguity - Sui"
+  category: "Book"
+  thoughts: "A story of a university student learning about his grandfather. I like how it flips between the present and the past. The grandfather's story is much more interesting than the student's, but at least we get to learn some cool set theory and theories about infinity with him!"
+  datefinished: "Pre-Summer 2024"
+
+- title: "An Edible History of Humanity - Standage"
+  category: "Book"
+  thoughts: "Read for sophomore year AP WH. Really interesting and also makes me sad for teosinte (corn)."
+  datefinished: "Pre-Summer 2024"
+
+- title: "Lean In - Sandberg"
+  category: "Book"
+  thoughts: "Biography of Sheryl Sandberg."
+  datefinished: "Pre-Summer 2024"
+
+- title: "Becoming - Michelle Obama"
+  category: "Book"
+  thoughts: "Biography of Michelle Obama."
+  datefinished: "Pre-Summer 2024"
