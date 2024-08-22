@@ -12,5 +12,11 @@ We found a room for ourselves, and came up with the idea of a google extension. 
 
 I headed to bed around 12, and woke up early the next day for breakfast. I saw that my club members were here and greeted them, then I returned to my team. The rest of the day went pretty smooth. We made different minigames, a logo, and a default container webpage with a points system. We named it SideQuest.
 
-You can 
-You can check out our code here
+Then it was time for judging. The way it worked is we first a peer judging system, then the organizers would judge the submissions. We took turns presenting and checking out other teams, where we voted for them using candy!
+
+Before the awards ceremony, we cleaned up our room and one of my teammates, who was a student at BB&N, gave us a tour. Then we returned and learned that we won first place overall, both in judging and by having the most candy votes! We were really happy and high-fived each other before going to the front to claim our prize (Raspberry Pis). We took our candy cup and also more candy from a giant bag. The candy was sweet.
+
+Finally, we went out for pictures, then everyone began to leave. We exchanged contact info, and the hackathon was over. 
+
+You can download our app from the Chrome Web Store [here](https://chromewebstore.google.com/detail/sidequest/lndafcnkmnkbjdoijfnceebpaejmhhdp).
+You can check out our code [here](https://github.com/swan-07/sidequest/tree/main).
