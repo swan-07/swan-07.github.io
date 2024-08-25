@@ -1,14 +1,39 @@
-- title: "test1"
+- title: "ride a horse"
+  done: false
+  date: ""
+  notes: ""
+
+- title: "milk a cow"
+  done: false
+  date: ""
+  notes: ""
+
+- title: "rent out a cinema"
+  done: false
+  date: ""
+  notes: ""
+
+- title: "learn to ride a motorcycle"
+  done: false
+  date: ""
+  notes: ""
+
+- title: "learn to skateboard"
+  done: false
+  date: ""
+  notes: ""
+
+- title: "immortality"
+  done: false
+  date: ""
+  notes: ""
+
+  - title: "go to outer space"
+  done: false
+  date: ""
+  notes: ""
+
+- title: "shear + feed sheep"
   done: true
-  date: "2023-05-10"
-  notes: "a."
-
-- title: "test2"
-  done: false
-  date: ""
-  notes: ""
-
-- title: "test2"
-  done: false
-  date: ""
-  notes: ""
+  date: "2024-02-21"
+  notes: "at ASPR!!!"
