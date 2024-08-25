@@ -228,3 +228,39 @@ a:hover{
   z-index: 10;
   margin-top: 5px;
 }
+
+#bucket-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.bucket-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+
+.bucket-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.bucket-item.completed {
+  color: #888;
+  background-color: #f0f0f0;
+  text-decoration: line-through;
+}
+
+.completion-info {
+  margin-left: 10px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.item-notes {
+  font-size: 0.9em;
+  color: #444;
+}
+
