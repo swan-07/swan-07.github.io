@@ -29,5 +29,18 @@ We couldn't go close to the rocks because it was muddy and they were afraid we'd
 
 We went to Windsor Palace after. We "toured" it, but really there was just one place to tour: St. George's chapel. I lit a few candles and looked at the marble tombs (it was interesting to just have the corpse in the chapel?) There wasn't much else to do there so we had dinner, which was beef noodle soup. It was funny that we traveled all the way to the UK just for asian food, but I mean you can't deny that beef noodle soup is really good (just as good at the beef noodle soup I had at the airport in Taiwan on the way back from ASPR!)
 
-Over the next three days we visited St. Paul's cathedral (where they had a statue of Cornwallis??), the Tower of London, and Cambridge. Some notes: I tried Five Guys for the first time! They sure liked the Duke of Wellington, there are so many statues and places named after him.
+Over the next three days we visited St. Paul's cathedral (where they had a statue of Cornwallis??), the Tower of London, and Cambridge (we went punting!). Some notes: I tried Five Guys for the first time! They sure liked the Duke of Wellington, there are so many statues and places named after him.
 
+Our last destination was Oxford. The whole city was quite pretty and gave me a new appreciation for both how you could walk amidst such beautiful (and sometiimes antique) architecture and live in such an environment, and also how walkable everything was in a city, where you could visit any location you wished in a short 10 minute walk.
+
+The other thing about old structures I've only recently had an appreciation for: you can really feel like you're stepping in the footsteps of history, and imagine people from centuries past roaming around the same buildings you walk around.
+
+The trip also taught me a bit about British history, though not that much. Listening to the tour guides, you think all that'd happened were Napoleon being defeated by the Duke of Wellington, Cromwell and the Civil War, the Great Fire of 1666, and King Henry VIII and all his exploits.
+
+We returned home on August 28, on a Virgin Atlantic flight. It was my first VA flight and I'm not sure if it was a VA thing or a Europe thing, but it was different than the flights I've been in before, both at the airport and in the airplane (afternoon tea comes to mind, as well as the lack of seating outside the departure gate - chairs are only provided AFTER you check in).
+
+On the flight I switched reading between The Elements of Computing Systems and The Diamond Age. I read the first since I was inspired to learn more about the inner workings of computers after BWSI, and the second after I'd seen lots of recommendations for it recently. I guess it's quite apt to read it with the idea of generative AI tutors floating around (who wouldn't want a copy of the Young Lady's Illustrated Primer)? The book is very easy to get through and has lots of fun references. It reads quite modern despite being written in the 20th century.
+
+My totally subjective and likely inaccurate airport rankings so far goes: TPE (super cute exhibitions and delicious beef noodle soup!), BOS (baseline, where I leave from), whichever airport I got stuck at in New Jersey (due to having to pull an all-nighter and eating way too much Dunkin) and LON (no seating area :(( ). 
+
+It was a fun time and a nice break overall, but now it's time to head back to school!
