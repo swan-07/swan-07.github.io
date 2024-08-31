@@ -11,7 +11,7 @@ This summer was my first time in the UK (in all of Europe, actually)! We headed 
 
 My relationship with flights has changed a lot. I used to hate flying when I was a child, but I've grown to like it now. One aspect is the lack of internet. I've had a problem with being constantly online (checking Discord, social media, etc.) and being bombarded with stimulation, so it's nice to relax and be cut off for a while. 
 
-Another aspect has to be the change in perspective. Watching the world from the plan gives you a different scope of existence. You can look down and watch the wade fade away into the clouds, or the spread of pollution and forests and farms. You can see the urban sprawl and road configurations. Some are circular, some linear. You can watch geographic processes. The rivers squiggle and the shipping ports have little blocks.
+Another aspect has to be the change in perspective. Watching the world from the plan gives you a different scope of existence. You can look down and watch the world fade away into the clouds, or the spread of pollution and forests and farms. You can see the urban sprawl and road configurations. Some are circular, some linear. You can watch geographic processes. The rivers squiggle and the shipping ports have little blocks.
 
 I also love flying because I've made it (and most long-distance forms of transportation) my time to read. I finished Atomic Habits on the plane and took a small nap, since due to time zones it would be 2 am ET when we arrived (time for sleep!) but 7 am BST (time for being awake and doing things).
 
