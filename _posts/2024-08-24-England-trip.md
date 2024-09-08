@@ -41,6 +41,6 @@ We returned home on August 28, on a Virgin Atlantic flight. It was my first VA f
 
 On the flight I switched reading between The Elements of Computing Systems and The Diamond Age. I read the first since I was inspired to learn more about the inner workings of computers after BWSI, and the second after I'd seen lots of recommendations for it recently. I guess it's quite apt to read it with the idea of generative AI tutors floating around (who wouldn't want a copy of the Young Lady's Illustrated Primer)? The book is very easy to get through and has lots of fun references. It reads quite modern despite being written in the 20th century.
 
-My totally subjective and likely inaccurate airport rankings so far goes: TPE (super cute exhibitions and delicious beef noodle soup!), BOS (baseline, where I leave from), whichever airport I got stuck at in New Jersey (due to having to pull an all-nighter and eating way too much Dunkin) and LON (no seating area :(( ). 
+My totally subjective and likely inaccurate airport rankings so far goes: TPE (super cute exhibitions and delicious beef noodle soup!), BOS (baseline, where I leave from), LGA - the airport I got stuck at in New Jersey (due to having to pull an all-nighter and eating way too much Dunkin) and LON (no seating area outside :(( ). 
 
 It was a fun time and a nice break overall, but now it's time to head back to school!
