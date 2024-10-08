@@ -1,0 +1,28 @@
+It was the day I met Vik when it happened. Sebastian left soon after introducing us, so we talked a bit on the balcony of the Stata Center. "What do you want to make?" and I said "a jetpack". I've always wanted to fly, though I think I've suppressed it, but my draems all 
+
+I have always been drawn to the myth of Icarus.
+
+No: more accurately, I’ve always been drawn to the ability to fly. When I sleep, I often dream about soaring high above the city. I know exactly what animal I would choose to be if not a human: a bird. 
+
+It is a universal human experience to desire freedom in surpassing nature’s barriers, and I have always desired to be free to fly, unrestrained, at will. Yes, airplanes exist, but those can hardly be called freedom.
+
+Icarus’ tale is special because he is unrestricted—he can fly anywhere (aside from too close to the sun). Icarus’ tale is special because it is not magic that gives him flight—it is the work of humans, of engineering (though it is Daedalus, not Icarus, who builds them).
+
+Icarus’ tale is a warning to limit our ambition. But without grand dreams, would we have any of the electricity, ships, planes, cards, phones, that bring us the freedoms we have today?
+
+I want to make a jetpack, most ambitiously, though I know it’s a long reach since I have almost no experience with engineering at all, electrical or otherwise. I do want to do something that allows me to lift off the ground, or something to do with wings. Since I can't make a jetpack or hoverboard (yet), we can just satify ourselves with wings.
+
+I mean they can't just be static wings - articulated wings, though they don't need to be as fancy as the ones on YouTube. I just need to move them up and down, and I want to control them - but not with my hands, with my brain.
+
+Okay, there's the basis for my idea. How do you get wings to go up and down? I learned what servos are, and after buying a small pack of 4 ($17) (and reading https://www.instructables.com/Motion-Activated-Cosplay-Wings-Using-Circuit-Playg-1/) I figured out how to turn them. This could work.
+
+Now controlling with my brain... I want to use my brainwaves, and I've heard of EEGs, but all the ones I see are so expensive!!! And no one (I could find) has made a project controlling wings on servos with their brainwaves, so there's no recipe I can follow. I saw a lot of posts referencing this: https://frontiernerds.com/brain-hack which is AMAZING!!! I bought a $25 secondhand MindFlex headband on Ebay, and we were set to go. 
+
+I took apart the headband and soldered the pins with a set of jumper wires I already had (thank you ID Tech from 5th grade!!! sorry I didn't realize the beauty of hardware back then!)
+
+I tried using bluetooth with a HC-06 module but it wasn't working (following this guide https://www.instructables.com/Mini-Arduino-Portable-EEG-Brain-Wave-Monitor-/). I wanted to see if I got a defective headband or something, so I attached the wires to an arduino uno ($15) to my computer, and it worked!!! I used the Arduino Brain Library and I could read the packets of numbers that the headband sent over!
+
+I wanted to have a visualization to see, but the code from frontiernerds wasn't working on the latest version of Processing. Downgrading to 2.1.2 (https://github.com/processing/processing/releases?page=5) did the trick, and it was so fun to see the different levels rise and fall in Processing!
+
+
+Also, something funny: I was trying to reach Instagram and typed "inst" into my search bar and hit enter, but it autofilled to Instructables instead. 
