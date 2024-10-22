@@ -2,9 +2,9 @@
 layout: post
 author: stephanie
 ---
-![image](../../../assets/images/projects/htn/subtitlesforhumans.jpg)
-
 Hack the North was this weekend!
+
+![image](../../../assets/images/projects/htn/subtitlesforhumans.jpg)
 
 Three days before, I knew that I wouldn't be able to eat home food for a while (since I'd be in Canada), so I decided to try cooking dinner for the first time. On Tuesday, I made soy sauce salmon with rice, seaweed, and cucumber. On Wednesday I made fried rice using the leftover rice. On Thursday I made pineapple pizza for breakfast. It was for breakfast because...
 
