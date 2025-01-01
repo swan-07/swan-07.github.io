@@ -2,5 +2,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-include:
-  - .well-known
+defaults:
+  - scope:
+      path: "public"
+    values:
+      include: [".well-known"]
+
