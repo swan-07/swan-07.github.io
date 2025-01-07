@@ -8,7 +8,7 @@
   link: /research.html
 - name: blog
   link: /blog.html
-- name: reading list
-  link: /media
-- name: bucket list
-  link: /bucketlist
+# - name: reading list
+#   link: /media
+# - name: bucket list
+#   link: /bucketlist
