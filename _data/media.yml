@@ -1,6 +1,11 @@
+# - title: "The Shape of Water"
+#   category: "Movie"
+#   thoughts: "First movie of 2025, watched in my Women's Lit class. This movie was popular and I had heard a lot about it back when I was younger. It was really interesting, and a fantastic movie overall."
+#   datefinished: "Jan 7 2025"
+  
 - title: "Learning to Be Me"
   category: "Short Story"
-  thoughts: "My first short story. The twist was pretty unexpected (though in retrospect, I should've seen it coming) but it makes you think it's going to go in a completely different way. Great sci-fi, works really well as a short story, and explores interesting philosophical questions."
+  thoughts: "My first short story of 2025. The twist was pretty unexpected (though in retrospect, I should've seen it coming) but it makes you think it's going to go in a completely different way. Great sci-fi, works really well as a short story, and explores interesting philosophical questions."
   datefinished: "Jan 4 2025"
 
 - title: "The Circle"
@@ -18,6 +23,7 @@
   thoughts: "Read for Women's Literature class. Honestly, this isn't that bad to get through! It was a pretty interesting and engaging story, in fact. I might need to give Pride and Prejudice another chance - last time, I read it in freshman year and couldn't finish it."
   datefinished: "Dec 18 2024"
 # Snuff - Palahniuk
+
 - title: "Brave New World"
   category: "Book"
   thoughts: "Really interesting book, I liked reading it. I loved the setting and premise of a hedonistic world. The value-adjustment at conception is also interesting to think about. Pretty short and an easy read (smooth as butter, couldn't put it down). It took me about 3 hours in total and I finished it within the day, so it's a quick read too."
@@ -42,6 +48,11 @@
   category: "Book"
   thoughts: "Interesting and I learned a lot about the history and general field, but after reading Beauvoir's work it seems like this book is just a simplified version of that (which I guess is its purpose). If you want your deeper questions answered, go read The Second Sex."
   datefinished: "Sep 10 2024"
+
+# - title: "Barbie"
+#   category: "Movie"
+#   thoughts: "I watched the movie in my Women's Lit class. The last two movies I watched before this were Oppenheimer and Napoleon, so this was a good change of pace. It was a lot better than I expected it to be and I still have the soundtrack songs in my playlist."
+#   datefinished: "Sometime early in the school year"
 
 - title: "Crash Course Engineering"
   category: "Other"
