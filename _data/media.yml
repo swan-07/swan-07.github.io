@@ -1,3 +1,8 @@
+# - title: "La Lengua De Las Mariposas"
+#   category: "Movie"
+#   thoughts: "For Spanish class, on the Spanish Civil War. Nice movie, but as my friend pointed out, it felt more like episode 1 of a show: a lot of subplots were left unfinished. Kind of surprising to not see a happy ending."
+#   datefinished: "Jan 10 2025"
+
 # - title: "The Shape of Water"
 #   category: "Movie"
 #   thoughts: "First movie of 2025, watched in my Women's Lit class. This movie was popular and I had heard a lot about it back when I was younger. It was really interesting, and a fantastic movie overall."
@@ -12,6 +17,11 @@
   category: "Book"
   thoughts: "My first book of 2025! Nice book, good dystopia for the modern age. Especially good if you're tech-adjacent."
   datefinished: "Jan 2 2025"
+
+# - title: "El Viaje de Carol"
+#   category: "Movie"
+#   thoughts: "For Spanish class, on the Spanish Civil War. Fun movie, and it's sad what happened to Tomiche. Lots of parts didn't feel completely finished though, and there would be a lot to expand on if this was a TV show."
+#   datefinished: "Before 2025"
 
 - title: "Introduction to JavaScript Electronics"
   category: "Short Book"
