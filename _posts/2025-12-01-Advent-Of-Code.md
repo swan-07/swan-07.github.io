@@ -11,7 +11,7 @@ Previously, AoC had 25 challenges but this year is the first time they'll have 1
 
 Either way, this is a really fun way to practice coding problem-solving skills! My private leaderboard code is 3472409-74ea4919 if you'd like to join, and I'll document my journey through each day of AoC!
 
-___
+***
 
 --- Day 1: Secret Entrance ---
 
