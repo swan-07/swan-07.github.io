@@ -46,7 +46,9 @@ print(password)
 ```
 
 PART 2:
+
 TIME: 6:26
+
 CODE: (SPOILERS BELOW!!!)
 
 ```py
@@ -92,7 +94,9 @@ print(password)
 <!-- --- Day X: Y ---
 
 PART 1:
+
 TIME: 
+
 CODE: (SPOILERS BELOW!!!)
 
 ```py
@@ -100,7 +104,9 @@ CODE: (SPOILERS BELOW!!!)
 ```
 
 PART 2:
+
 TIME: 
+
 CODE: (SPOILERS BELOW!!!)
 
 ```py
