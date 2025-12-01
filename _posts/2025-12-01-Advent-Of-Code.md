@@ -16,7 +16,9 @@ Either way, this is a really fun way to practice coding problem-solving skills! 
 --- Day 1: Secret Entrance ---
 
 PART 1:
+
 TIME: 7:02
+
 CODE: (SPOILERS BELOW!!!)
 
 ```py
