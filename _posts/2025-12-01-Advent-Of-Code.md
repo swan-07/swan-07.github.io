@@ -13,7 +13,7 @@ Either way, this is a really fun way to practice coding problem-solving skills! 
 
 ***
 
---- Day 1: Secret Entrance ---
+# --- Day 1: Secret Entrance ---
 
 PART 1:
 
@@ -88,7 +88,7 @@ while True:
 print(password)
 ```
 
---- Day 2: Gift Shop ---
+# --- Day 2: Gift Shop ---
 
 PART 1:
 
@@ -166,7 +166,7 @@ print(answer)
 
 
 
-<!-- --- Day X: Y ---
+<!-- # --- Day X: Y ---
 
 PART 1:
 
