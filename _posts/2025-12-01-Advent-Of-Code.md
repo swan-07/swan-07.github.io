@@ -88,6 +88,81 @@ while True:
 print(password)
 ```
 
+--- Day 2: Gift Shop ---
+
+PART 1:
+
+TIME: 19:56
+
+I originally attempted to code it in Java to switch the language up a bit, but the large numbers made it much easier to do in python; as such, I switched to python.
+
+CODE: (SPOILERS BELOW!!!)
+
+```py
+
+ranges = [x for x in input().split(",")]
+answer = 0
+
+for range in ranges:
+    start, end = range.split("-")
+    startint = int(start)
+    endint = int(end)
+
+    firsthalfstart = start[:len(start)//2]
+    if firsthalfstart == '':
+        firsthalfstart = '1'
+    firsthalfstartint = int(firsthalfstart)
+
+    while True:
+        pattern = int(firsthalfstart+firsthalfstart)
+        if (pattern <= endint) and (pattern >= startint):
+            answer += pattern
+            firsthalfstartint += 1
+            firsthalfstart = str(firsthalfstartint)
+        elif pattern < startint:
+            firsthalfstartint += 1
+            firsthalfstart = str(firsthalfstartint)
+        else:
+            break
+
+
+print(answer)
+
+```
+
+PART 2:
+
+TIME: 6:45
+
+This code is a little slow, it takes around 10 seconds to run.
+
+CODE: (SPOILERS BELOW!!!)
+
+```py
+ranges = [x for x in input().split(",")]
+answer = 0
+
+for r in ranges:
+    start, end = r.split("-")
+    startint = int(start)
+    endint = int(end)
+
+    for n in range(startint, endint):
+        for i in range(1, len(str(n))//2+1):
+            repeat = str(n)[:i]
+            repeated = True
+            for section in range(i, len(str(n)), i):
+                if repeat != str(n)[section : section+i]:
+                    repeated = False
+                    break
+            if repeated:
+                answer += n
+                break
+
+
+
+print(answer)
+```
 
 
 
