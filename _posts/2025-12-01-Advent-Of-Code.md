@@ -164,6 +164,158 @@ for r in ranges:
 print(answer)
 ```
 
+# --- Day 3: Lobby ---
+
+PART 1:
+
+TIME: 25:41
+
+I accidentally drank some tea at around 11. It had caffeine, so I couldn't sleep at 3 am and decided to do Advent of Code instead. I wanted to revisit Java since I missed it (Java was my first coding language, back when I was a student at KTByte), so Java it was for today.
+
+CODE: (SPOILERS BELOW!!!)
+
+```java
+import java.io.*;
+import java.util.StringTokenizer;
+
+public class Main {
+	public static void main(String[] args) throws IOException {
+		BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
+		PrintWriter pw = new PrintWriter(System.out);
+        String line;
+
+        int total = 0;
+        while ((line = r.readLine()) != null) {
+            int first = 0;
+            int second = 0;
+            boolean swap = false;
+            for (int i = 9; i >= 0; i--){
+                if (line.contains(String.valueOf(i))){
+                    // System.out.println("first is " + i);
+                    // System.out.println("index is " + line.indexOf(String.valueOf(i)));
+                    first = i;
+                    if (line.indexOf(String.valueOf(i)) == line.length()-1){
+                        swap = true;
+                    }
+                    break;
+                }
+            }
+            if (swap){
+                for (int i = first-1; i >= 0; i--){
+                    if (line.contains(String.valueOf(i))){
+                        second = first;
+                        first = i;
+                        break;
+                    }
+                }
+            }
+            else{
+                boolean found = false;
+                for (int i = first; i >= 0; i--){
+                    if (found) break;
+                    for (int j = line.indexOf(String.valueOf(first))+1; j < line.length(); j++){
+                        // System.out.println("j is " + j);
+                        // System.out.println((line.charAt(j)-'0'));
+                        // System.out.println(i);
+                        if (i == (line.charAt(j)-'0')){
+                            second = i;
+                            found = true;
+                            break;
+                        }
+                    }
+                }
+            }
+
+            // System.out.println(10*first + second);
+
+            total += (10*first + second);
+
+
+
+
+        }
+
+        System.out.println(total);
+
+
+	}
+}
+
+
+```
+
+PART 2:
+
+TIME: 27:06
+
+CODE: (SPOILERS BELOW!!!)
+
+```java
+
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    static int[] largestintandindex(String str, ArrayList<Integer> indices){
+        int largest = -1;
+        int largestindex = 0;
+        int i;
+        if (indices.size() > 0){
+            i = indices.get(indices.size()-1)+1;
+        }
+        else{
+            i = 0;
+        }
+        while (i < str.length()){
+            if (str.charAt(i)-'0' > largest){
+                if (!indices.contains(i)){
+                    largest = str.charAt(i)-'0';
+                    // System.out.println(largest);
+                    largestindex = i;
+                }
+            }
+            i++;
+        }
+        // System.out.println(largestindex);
+
+        return new int[]{largest, largestindex};
+    }
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
+		PrintWriter pw = new PrintWriter(System.out);
+        String line;
+
+        long total = 0;
+        
+        while ((line = r.readLine()) != null) {
+            ArrayList<Integer> indices = new ArrayList<Integer>();
+            long temp = 0;
+            for (int i = 11; i >= 0; i--){
+                // System.out.println(line.substring(0, line.length()-i));
+                int[] arr = largestintandindex(line.substring(0, line.length()-i), indices);
+                // System.out.println(temp);
+                temp+=arr[0]*Math.pow(10, i);
+                indices.add(arr[1]);
+            }
+
+            // System.out.println(temp);
+            total+=temp;
+
+
+
+
+        }
+        System.out.println(total);
+
+
+	}
+}
+
+
+```
+
 
 
 <!-- # --- Day X: Y ---
