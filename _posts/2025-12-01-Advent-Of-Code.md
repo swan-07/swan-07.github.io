@@ -315,7 +315,149 @@ public class Main {
 
 
 ```
+# --- Day 4: Printing Department ---
 
+PART 1:
+
+TIME: 16:51
+
+I wanted to get familiar with C++, too, as I ought to learn it for ICPC/competitive programming. Thus, today's code was written in C++.
+
+CODE: (SPOILERS BELOW!!!)
+
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+    vector<vector<char>> grid; 
+    
+
+	string row;
+    while (cin >> row) { 
+        // cout << row << endl;
+
+        grid.push_back(vector<char>(row.begin(), row.end()));
+    }
+
+    int result = 0;
+
+    for (int i = 0; i < grid.size(); i++){
+        for (int j = 0; j < grid[0].size(); j++){
+            int nearby = 0;
+            if (grid[i][j] == '.') continue;
+            if (i!=0){
+                if (j!=0){
+                    if(grid[i-1][j-1] == '@') nearby++;
+                }
+                if(grid[i-1][j] == '@') nearby++;
+                if (j!=grid[0].size()-1){
+                    if(grid[i-1][j+1] == '@') nearby++;
+                }
+            }
+            if (i!=grid.size()-1){
+                if (j!=0){
+                    if(grid[i+1][j-1] == '@') nearby++;
+                }
+                if(grid[i+1][j] == '@') nearby++;
+                if (j!=grid[0].size()-1){
+                    if(grid[i+1][j+1] == '@') nearby++;
+                }
+            }
+            if (j!=0){
+                if(grid[i][j-1] == '@') nearby++;
+            }
+            if (j!=grid[0].size()-1){
+                if(grid[i][j+1] == '@') nearby++;
+            }
+
+            if (nearby < 4){
+                result++;
+            }
+
+        }
+    }
+
+    cout << result;
+}
+
+```
+
+PART 2:
+
+TIME: 1:37
+
+This is so fun, it was almost a little sad that part 2 only took a few seconds to do.
+
+CODE: (SPOILERS BELOW!!!)
+
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+    vector<vector<char>> grid; 
+    
+
+	string row;
+    while (cin >> row) { 
+        // cout << row << endl;
+
+        grid.push_back(vector<char>(row.begin(), row.end()));
+    }
+
+    int result = 0;
+    vector<vector<char>> oldgrid; 
+
+    while (oldgrid != grid){
+        oldgrid = grid;
+        for (int i = 0; i < grid.size(); i++){
+            for (int j = 0; j < grid[0].size(); j++){
+                int nearby = 0;
+                if (grid[i][j] == '.') continue;
+                if (i!=0){
+                    if (j!=0){
+                        if(grid[i-1][j-1] == '@') nearby++;
+                    }
+                    if(grid[i-1][j] == '@') nearby++;
+                    if (j!=grid[0].size()-1){
+                        if(grid[i-1][j+1] == '@') nearby++;
+                    }
+                }
+                if (i!=grid.size()-1){
+                    if (j!=0){
+                        if(grid[i+1][j-1] == '@') nearby++;
+                    }
+                    if(grid[i+1][j] == '@') nearby++;
+                    if (j!=grid[0].size()-1){
+                        if(grid[i+1][j+1] == '@') nearby++;
+                    }
+                }
+                if (j!=0){
+                    if(grid[i][j-1] == '@') nearby++;
+                }
+                if (j!=grid[0].size()-1){
+                    if(grid[i][j+1] == '@') nearby++;
+                }
+
+                if (nearby < 4){
+                    result++;
+                    grid[i][j]='.';
+                }
+
+            }
+        }
+
+    }
+
+    
+
+    cout << result;
+}
+
+```
 
 
 <!-- # --- Day X: Y ---
