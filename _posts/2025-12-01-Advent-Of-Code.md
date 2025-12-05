@@ -459,6 +459,147 @@ int main() {
 
 ```
 
+# --- Day 5: Cafeteria ---
+
+PART 1:
+
+TIME: 17:23
+
+CODE: (SPOILERS BELOW!!!)
+
+```c++
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	string a;
+    vector<pair<long long, long long>> ids;
+    while (true) {
+        getline(cin, a); 
+
+        if (a.empty()) { 
+            break; 
+        }
+
+
+        ids.push_back({stoll(a.substr(0, a.find('-'))), stoll(a.substr(a.find('-') + 1))});
+    }
+
+    long long b;
+    long long count = 0;
+
+    while(cin >> b){
+        for (pair<long long, long long> p : ids){
+            if (b <= p.second && b >= p.first){
+                count++;
+                break;
+            }
+        }
+    }
+
+    cout << count;
+
+}
+
+```
+
+PART 2:
+
+TIME: 9:24
+
+Started timer a litte late by accident, time might not be accurate.
+
+CODE: (SPOILERS BELOW!!!)
+
+```c++
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	string a;
+    vector<pair<long long, long long>> ids;
+    while (true) {
+        getline(cin, a); 
+
+        if (a.empty()) { 
+            break; 
+        }
+
+        pair<long long, long long> np = {stoll(a.substr(0, a.find('-'))), stoll(a.substr(a.find('-') + 1))};
+        bool newelement = true;
+        for (pair<long long, long long> &p : ids){
+            //any overlaps?
+            //case 1: p1 < np1 < p2 < np2
+            if (p.first <= np.first && np.first <= p.second && p.second <= np.second){
+                p = {p.first, np.second};
+                newelement = false;
+            }
+            //case 2: p1 < np1 < np2 < p2
+            if (p.first <= np.first && np.second <= p.second){
+                newelement = false;
+                continue;
+            }
+            //case 3: np1 < p1 < np2 < p2
+            if (np.first <= p.first && p.first <= np.second && np.second <= p.second){
+                newelement = false;
+                p = {np.first, p.second};
+            }
+            //case 4: np1 < p1 < p2 < np2
+            if (np.first <= p.first && p.second <= np.second){
+                newelement = false;
+                p = {np.first, np.second};
+            }
+        }
+
+        if(newelement) ids.push_back(np);
+    }
+
+    vector<pair<long long, long long>> oldids;
+    while(oldids != ids){
+        oldids = ids;
+        ids = {};
+        for (auto np : oldids){
+            bool newelement = true;
+            for (pair<long long, long long> &p : ids){
+            //any overlaps?
+            //case 1: p1 < np1 < p2 < np2
+            if (p.first <= np.first && np.first <= p.second && p.second <= np.second){
+                p = {p.first, np.second};
+                newelement = false;
+            }
+            //case 2: p1 < np1 < np2 < p2
+            if (p.first <= np.first && np.second <= p.second){
+                newelement = false;
+                continue;
+            }
+            //case 3: np1 < p1 < np2 < p2
+            if (np.first <= p.first && p.first <= np.second && np.second <= p.second){
+                newelement = false;
+                p = {np.first, p.second};
+            }
+            //case 4: np1 < p1 < p2 < np2
+            if (np.first <= p.first && p.second <= np.second){
+                newelement = false;
+                p = {np.first, np.second};
+            }
+        }
+        if(newelement) ids.push_back(np);
+        }
+    }
+
+    long long total = 0;
+
+    for (pair<long long, long long> p : ids){
+            total+=p.second-p.first+1;
+    }
+
+    cout << total;
+
+}
+
+```
 
 <!-- # --- Day X: Y ---
 
