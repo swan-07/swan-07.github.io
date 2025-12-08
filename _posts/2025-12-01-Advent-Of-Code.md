@@ -601,6 +601,81 @@ int main() {
 
 ```
 
+# --- Day 6: Trash Compactor ---
+
+PART 1:
+
+TIME: 23:06
+
+We're continuing with the C++ practice! I'm beginning to miss Python a little though, input parsing is a lot easier there.
+
+CODE: (SPOILERS BELOW!!!)
+
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+
+int main() {
+    vector<vector<ll>> nums;
+    vector<char> ops;
+    string row;
+    while (getline(cin, row)) { 
+        stringstream ss(row);
+        stringstream ss1(row);
+        vector<ll> r = {};
+        ll num;
+        while (ss >> num){
+            r.push_back(num);
+        }
+
+        if (r.size() == 0){
+            char ch;
+            while (ss1.get(ch)) {
+                if (!isspace(ch)) { 
+                    ops.push_back(ch);
+                }
+            }
+        }
+        else nums.push_back(r);
+    }
+
+
+    ll sol = 0;
+
+    for (int i = 0; i < nums[0].size(); i++){
+        ll total = 0;
+            if(ops[i] == '*'){
+                    total = 1;
+                    for (int j = 0; j < nums.size(); j++){
+                        total*=nums[j][i];
+                        //cout << nums[j][i] << endl << total << endl;
+                    }
+                    
+                }
+            else{
+                for (int j = 0; j < nums.size(); j++){
+                    total+=nums[j][i];
+                    //cout << nums[j][i] << endl << total << endl;
+                }
+            }
+        sol+=total;    
+    }
+
+    cout << sol;
+}
+```
+
+PART 2:
+
+TIME: 27:52
+
+CODE: (SPOILERS BELOW!!!)
+
+```c++
+
+```
+
 <!-- # --- Day X: Y ---
 
 PART 1:
@@ -609,7 +684,7 @@ TIME:
 
 CODE: (SPOILERS BELOW!!!)
 
-```py
+```c++
 
 ```
 
@@ -619,6 +694,6 @@ TIME:
 
 CODE: (SPOILERS BELOW!!!)
 
-```py
+```c++
 
 ``` -->
