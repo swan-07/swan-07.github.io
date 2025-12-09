@@ -1,41 +1,43 @@
-// Global view counter using Countapi
-// Tracks page views globally across all visitors
+// Counter API integration for static websites
+// Uses Counter API's REST endpoint - no authentication needed
 
 (function() {
-  const NAMESPACE = 'swan-07-github-io'; // Unique namespace for your site
+  const NAMESPACE = 'swan07-views';
   
-  function initGlobalViewCounter() {
+  function initViewCounter() {
     const pageUrl = window.location.pathname;
     const pageKey = pageUrl === '/' ? 'homepage' : pageUrl.replace(/\//g, '-').slice(1);
     
-    // Increment global page counter
-    incrementAndDisplayCounter(pageKey, 'view-counter');
+    // Increment page counter
+    trackEvent(pageKey);
     
-    // Increment and display total site views
-    incrementAndDisplayCounter('total-views', 'total-views');
+    // Increment total site counter
+    trackEvent('total');
   }
   
-  function incrementAndDisplayCounter(key, elementId) {
-    const url = `https://api.countapi.com/hit/${NAMESPACE}/${key}`;
-    
-    fetch(url)
-      .then(response => response.json())
-      .then(data => {
-        const counter = document.getElementById(elementId);
-        if (counter) {
-          counter.textContent = data.value;
-          counter.setAttribute('data-key', key);
-        }
-      })
-      .catch(error => {
-        console.log('View counter unavailable:', error);
-      });
+  async function trackEvent(key) {
+    try {
+      // Use Counter API's REST endpoint
+      const response = await fetch(`https://api.counterapi.dev/up?namespace=${NAMESPACE}&id=${key}`);
+      const data = await response.json();
+      
+      console.log(`[Counter] ${key}: ${data.value}`);
+      
+      // Update display
+      const elementId = key === 'total' ? 'total-views' : 'view-counter';
+      const el = document.getElementById(elementId);
+      if (el) {
+        el.textContent = data.value;
+      }
+    } catch (error) {
+      console.error(`[Counter] Error tracking ${key}:`, error);
+    }
   }
   
-  // Run when DOM is ready
+  // Initialize when DOM is ready
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initGlobalViewCounter);
+    document.addEventListener('DOMContentLoaded', initViewCounter);
   } else {
-    initGlobalViewCounter();
+    initViewCounter();
   }
 })();
