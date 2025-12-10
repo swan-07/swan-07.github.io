@@ -1,18 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-12-08T19:04:34-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Bci</title><link href="http://localhost:4000/2025/12/07/BCI.html" rel="alternate" type="text/html" title="Bci" /><published>2025-12-07T00:00:00-05:00</published><updated>2025-12-07T00:00:00-05:00</updated><id>http://localhost:4000/2025/12/07/BCI</id><content type="html" xml:base="http://localhost:4000/2025/12/07/BCI.html"><![CDATA[<p>Some of you may remember my last project with <a href="https://swan-07.github.io/assets/images/projects/treeflap.mp4">EEG-brain computer interfaces</a>. It was fun, though the project was limited by budgetary constraints (which was one of its selling points - a fun EEG project for under $30). As such, the data was pretty noisy, giving me limited control.</p>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Advent Of Code</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/icon.png">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Advent Of Code</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Advent Of Code" />
+<meta name="author" content="stephanie" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Today is the first day of December, so you know what that means… Advent of Code!" />
+<meta property="og:description" content="Today is the first day of December, so you know what that means… Advent of Code!" />
+<link rel="canonical" href="http://localhost:4000/2025/12/01/Advent-Of-Code.html" />
+<meta property="og:url" content="http://localhost:4000/2025/12/01/Advent-Of-Code.html" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-12-01T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Advent Of Code" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"stephanie"},"dateModified":"2025-12-01T00:00:00-05:00","datePublished":"2025-12-01T00:00:00-05:00","description":"Today is the first day of December, so you know what that means… Advent of Code!","headline":"Advent Of Code","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2025/12/01/Advent-Of-Code.html"},"url":"http://localhost:4000/2025/12/01/Advent-Of-Code.html"}</script>
+<!-- End Jekyll SEO tag -->
 
-<p>Luckily, I now have the opportunity to explore further. Professor Abhishek’s lab has all of these OpenBCI boards and electrodes (which would cost thousands typically) and he was nice enough to give me essentially free reign on playing around with them! I’m pretty excited to explore, and I’ll document my journey here.</p>
 
-<p>Firstly, I wanted to just get one of these headsets assembled and ready to use. The issue is that the state of the art requires you to put this gel on the electrodes to decrease impedance, which is sticky and gets everywhere and kind of gross. I didn’t want to do that, so I decided to try the headband set, which seemed the most convenient (other options: the headcap, and the Cortex Mark IV which I 3D printed at the CEID).</p>
+    <script src="https://unpkg.com/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script src="script.js"></script>
+    <script src="/assets/js/view-counter.js"></script>
+  </head>
+  <body>
+    <nav>
+  <ul>
+    
+    <li><a href="/" >home</a></li>
+    
+    <li><a href="/projects.html" >projects</a></li>
+    
+    <li><a href="/art.html" >art</a></li>
+    
+    <li><a href="/research.html" >research</a></li>
+    
+    <li><a href="/blog.html" >blog</a></li>
+    
+  </ul>
 
-<p>So on a Sunday, I got to work downloading the OpenBCI GUI and learning how to assemble the headset with the Cyton board (the lab also has the Daisy module! What luxury!). I assembled the headset and hooked it up to my computer. After playing around with the OpenBCI GUI a little, I wrote a small proof-of-concept script. I gathered my brain data from concentrating (doing mental math) and relaxing (thinking of landscapes) and trained a classifier to distinguish between the data, then I made a little game where concentrating made the player go up and relaxing made it go down. You can also listen to me explain it here:</p>
+</nav>
+    <h1>Advent Of Code</h1>
+<p>01 Dec 2025 - stephanie | Views: <span id="view-counter">0</span></p>
 
-<p><a href="https://www.loom.com/share/9dfabd1229dd41aaa7ba267894fb2606">EEG Demo 1</a></p>
-
-<p>Of course, since I only trained it on 20 5 second clips of each brain state, it had really low accuracy (65%), and the game is not the most exciting. There’s lots of ways to improve it.</p>
-
-<p>Off-topic: I’ve met a few of the grad students at the lab and they’re super nice! There’s a gal who’s a masters student in computer architecture also in the Abhishek Bhattacharjee lab who’s doing research in the same room, and down the hall is a nice gal who’s a fourth-year PhD student in cloud security. It’s fun to see others around, though most of the time (or at least the times when I go in, which are usually weekends and afternoons) the rooms are empty.</p>
-
-<p>TBC…</p>]]></content><author><name>stephanie</name></author><summary type="html"><![CDATA[Some of you may remember my last project with EEG-brain computer interfaces. It was fun, though the project was limited by budgetary constraints (which was one of its selling points - a fun EEG project for under $30). As such, the data was pretty noisy, giving me limited control.]]></summary></entry><entry><title type="html">Advent Of Code</title><link href="http://localhost:4000/2025/12/01/Advent-Of-Code.html" rel="alternate" type="text/html" title="Advent Of Code" /><published>2025-12-01T00:00:00-05:00</published><updated>2025-12-01T00:00:00-05:00</updated><id>http://localhost:4000/2025/12/01/Advent-Of-Code</id><content type="html" xml:base="http://localhost:4000/2025/12/01/Advent-Of-Code.html"><![CDATA[<p>Today is the first day of December, so you know what that means… <a href="https://adventofcode.com/">Advent of Code</a>!</p>
+<p>Today is the first day of December, so you know what that means… <a href="https://adventofcode.com/">Advent of Code</a>!</p>
 
 <p>Advent of Code (AoC) is a fun twist on the traditional Advent Calendar, where every day of December until Christmas there’s a new coding challenge. The coding challenges take the form of CodeForces-esque problems (testing your problem solving skills) and there’s two parts to each problem. Solving the first part gets you one star, solving both gets you two. Each problem is themed around saving Christmas with the Elves!</p>
 
@@ -693,175 +732,10 @@ CODE: (SPOILERS BELOW!!!)
 
 ```c++
 
-``` -->]]></content><author><name>stephanie</name></author><summary type="html"><![CDATA[Today is the first day of December, so you know what that means… Advent of Code!]]></summary></entry><entry><title type="html">Hack the north</title><link href="http://localhost:4000/2024/09/17/Hack-the-North.html" rel="alternate" type="text/html" title="Hack the north" /><published>2024-09-17T00:00:00-04:00</published><updated>2024-09-17T00:00:00-04:00</updated><id>http://localhost:4000/2024/09/17/Hack%20the%20North</id><content type="html" xml:base="http://localhost:4000/2024/09/17/Hack-the-North.html"><![CDATA[<p>Hack the North was this weekend!</p>
-
-<p><img src="../../../assets/images/projects/htn/subtitlesforhumans.jpg" alt="image" /></p>
-
-<p>Three days before, I knew that I wouldn’t be able to eat home food for a while (since I’d be in Canada), so I decided to try cooking dinner for the first time. On Tuesday, I made soy sauce salmon with rice, seaweed, and cucumber. On Wednesday I made fried rice using the leftover rice. On Thursday I made pineapple pizza for breakfast. It was for breakfast because…</p>
-
-<p>My flight was really early, 6 am on Friday, which meant two things:
-1) I was missing a day of school, so I spent Wednesday finishing my schoolwork early.</p>
-
-<p>2) I had to wake up super early! On Thursday, I packed my bags, then slept early at 8 (so I ate the pizza for breakfast instead of dinner) to wake up at 2:30 am the next morning (that’s when I sleep sometimes…). I went out at 3:00 am, and everything seemed so empty. The roads were nice and quiet. By 3:30, I arrived at Logan, then reached my gate at 4. I slept for a little, then it was my flight.</p>
-
-<p>I arrived at 8 am and finished my HEXT homework. Using the code for http://karpathy.github.io/2015/05/21/rnn-effectiveness/, I also had some fun training a character RNN model on my Discord messages. It improved pretty quickly, and it was fun to watch. 
-<img src="../../../assets/images/beginning.png" alt="image" /></p>
-
-<p><img src="../../../assets/images/end.png" alt="image" /></p>
-
-<p>I also made a little game for fun which scraped posts from r/aita and given the text, had you guess what the final verdict was.</p>
-
-<p>Soon the waiting area for Hack the North opened up, so I went over to meet some people. It was fun chatting to them and then it was time to leave through the bus. I sat next to one of the people I had met, a computer science major (tbh most people there were), and we talked about the internet, graphics processing, and a host of other things.</p>
-
-<p>When we arrived it was time for dinner. Afterwards I went to the team formation activity, where I met two people who also wanted to try out a hardware project. I was excited because that was my goal this hackathon, so we formed a team and moved over to the Hardware Bay. We discussed project ideas. Our first idea was glasses that gave subtitles about the world around you, but it was a little unfeasible. We decided instead to do the reverse, where you had a wearable shirt with a screen that displayed subtitles of what you were saying to the world. We requested our hardware and went to bed.</p>
-
-<p><img src="../../../assets/images/projects/htn/layout.JPG" alt="image" /></p>
-
-<p>I got 5-6 hours of sleep, which isn’t too bad for an overnight hackathon! I was a little worried about sleep - I also only got around 4-6 the day before and I wasn’t expecting to sleep much the second night when I was in the thick of the hackathon.</p>
-
-<p>The next day we picked up our hardware and were told that there were no microphones left. We were slightly concerned, because that was a big problem. Our project depended on the user being able to speak into a microphone that we could get the sound packets from. We decided to go for a trip to Canadian Computers &amp; Electronics, 1.5 miles away. To get there faster, we took e-scooters. It was my first time on an e-scooter and it was a little frightening to be honest, but we were able to get to the store, buy the microphone, and return safely.</p>
-
-<p>By lunchtime we had the hardware assembled and the pygame display working.</p>
-
-<p><img src="../../../assets/images/projects/htn/screentest.png" alt="image" /></p>
-
-<p>Assembling the hardware and reading the documentation was really helpful for learning how electronics/everything worked. My soldering abilities I was developing came in handy when we needed to de- and re-solder parts of the microphone to make it less bulky.</p>
-
-<p><img src="../../../assets/images/projects/htn/mic.png" alt="image" /></p>
-
-<p><img src="../../../assets/images/projects/htn/solderingmic.png" alt="image" /></p>
-
-<p>By dinner, we got the transcription working, so we went out to get boba to celebrate. I had a blueberry boba, which was delicious.</p>
-
-<p><img src="../../../assets/images/projects/htn/boba.png" alt="image" /></p>
-
-<p>We 3D printed a case for the screen adn the raspberry pi 5 that powered it, which was really helpful because the rp5 went up to 98 C sometimes and this was supposed to be wearable.</p>
-
-<p><img src="../../../assets/images/projects/htn/partswithcase.png" alt="image" /></p>
-
-<p>We found a large sweater and spray painted it completely black (my first time spray painting!).</p>
-
-<p><img src="../../../assets/images/projects/htn/outfit1.png" alt="image" /></p>
-
-<p>We then sewed it all together and made a devpost for submission. We submitted 2 minutes before the deadline, but we made it! We celebrated by taking 1-hour naps before we had to prepare for the presentation. We made a script and practiced our presentation, then it was time and we went, and then the hackathon was nearly over.</p>
-
-<p><img src="../../../assets/images/projects/htn/outfit2.png" alt="image" /></p>
-
-<p><img src="../../../assets/images/projects/htn/me.png" alt="image" /></p>
-
-<p>My earlier prediction was right: I only got 1 hour of sleep over the night. There were so many sponsors at the event that gave out swag (and there was so much swag also!) as well as delicious snacks like soup, chocolate, kinder eggs, and chips available. The event was super fun overall.</p>
-
-<p>It was time to return, so we got back onto the bus, which was a school bus. Then it was time for my flight home. I was utterly exhausted returning on Monday, but happy.</p>
-
-<video src="../../../assets/images/projects/htn/transcription.mov" width="320" height="240" controls=""></video>
-
-<video src="../../../assets/images/projects/htn/translation.mov" width="320" height="240" controls=""></video>
-
-<p>You can find our github repo here: https://github.com/Project-Tee/Project-Tee/tree/main</p>
-
-<p>Or a more detailed description of the project on devpost: https://devpost.com/software/project-tee</p>]]></content><author><name>stephanie</name></author><summary type="html"><![CDATA[Hack the North was this weekend!]]></summary></entry><entry><title type="html">Aspr</title><link href="http://localhost:4000/2024/08/25/ASPR.html" rel="alternate" type="text/html" title="Aspr" /><published>2024-08-25T00:00:00-04:00</published><updated>2024-08-25T00:00:00-04:00</updated><id>http://localhost:4000/2024/08/25/ASPR</id><content type="html" xml:base="http://localhost:4000/2024/08/25/ASPR.html"><![CDATA[<p>“All models are wrong, but some are useful.” - every statistics textbook, but most relevantly to me, Modeling Social Behavior by Smaldino.</p>
-
-<p>This post is super late and thus will be super brief, but in February I went to ASPR, a camp similar to SPARC, but held in rural Taiwan rather than UC Berkeley. I went to SPARC back in 2022 during the summer, and was excited for ASPR.</p>
-
-<p>My flight was first from BOS to SFO, then from SFO to TPE in Taiwan. The whole trip was a little over 20 hours. The food was delicious and I completed all my schoolwork for the week (ASPR was held during winter break but still overlapped with a few days of school).</p>
-
-<p>I had met another person from Boston going to ASPR in BOS (and they were who I was assigned to introduce during third-party introductions, a twist on typical introductions) and we met another person at SFO. A third person was also going to ASPR but we didn’t see them on the plane. Once we landed at TPE, we met up with a larger group of students headed to ASPR. An instructor was there to drive us to the camp, which was held on a sheep farm in the mountains, and, as I learned later, the last (and only) location permitted to be built on those mountains as a touristy spot. The ride was 2-3 hours and filled with so many twists and turns that I felt sick by the end of it. At camp I met everyone, fed sheep, and picked up Modeling Social Behavior from the book pile. Jetlagged, I fell asleep at 9 and awoke promptly the next morning at 5.</p>
-
-<p>I spent my time walking around the balcony and exploring the place. It was truly beautiful, from the sunrise and sunshine to the nature that surrounded us. It felt like paradise.</p>
-
-<p>I had a few more one on ones the next day, herded the sheep, said hi to the local puppy, and felted wool I sheared from the sheep. One instructor tried to teach me to do handstands, and I hiked through the forest in the mornings. I cut bamboo for the first time, led the grill at a BBQ, danced, sang karaoke, and then went on a midnight surprise adventure where we only returned at 3. I visited TSMC’s museum, a mall, Daxi bridge, ate street food, ran a game theory game, then had hot pot and boba for dinner. I fed the sheep from my hand and tried new fruit that made me feel fuzzy. I raced to Taipei 101 with friends, and walked along the road, ducking when cars came near (we yelled “Car!”). I learned why “black sheep” is a phrase - people did avoid the singular black sheep in the flock, LOL. I read books and enjoyed nature and had fun.</p>
-
-<p>On the flight back, I tried beef noodle soup (a staple of Taiwan) at the airport, and it was soo good. I took home a couple of books, as well as some pokemon plushies and an IKEA golden retriever plushy. Our flight from SFO to BOS was cancelled, so we flew to NJ where we overnighted at the airport (no hotel because none of us were over 21). I felt exhausted but happy when I finally returned home.</p>
-
-<p>I met so many new friends and I truly think ASPR was an amazing experience that changed who I am as a person.</p>
-
-<p>I used to think that ASPR had shown me paradise on earth, hidden from the world and tucked away in a sheep farm in the rural mountains of Taiwan where I could spend all day walking through nature and talking of technology and philosophy. I realize how that all it had done was open my eyes to show me that paradise was already here on earth. There are nature walks hidden near me, too, connecting Joyce Miller’s Meadow to Arlington’s Great Fields. There are interesting people to have conversations with in my hometown - all people are naturally interesting, due to their deep, rich existences and lives. We just don’t notice it normally. We live in the cyberpunk paradies of my sci-fi dreams, where we’ve bested nature with technology and we can make anything we imagine with what we have around us. All we need to do is open our eyes.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[“All models are wrong, but some are useful.” - every statistics textbook, but most relevantly to me, Modeling Social Behavior by Smaldino.]]></summary></entry><entry><title type="html">England Trip</title><link href="http://localhost:4000/2024/08/24/England-trip.html" rel="alternate" type="text/html" title="England Trip" /><published>2024-08-24T00:00:00-04:00</published><updated>2024-08-24T00:00:00-04:00</updated><id>http://localhost:4000/2024/08/24/England-trip</id><content type="html" xml:base="http://localhost:4000/2024/08/24/England-trip.html"><![CDATA[<p>I use a chrome extension which gives me new quotes on every tab. I’ve saved up so many good quotes throughout the years, so I’ll be starting my posts with a quote from now on.</p>
-
-<p>“The light which puts out our eyes is darkness to us. Only that day dawns to which we are awake. There is more day to dawn. The sun is but a morning star.” - Thoreau</p>
-
-<p>This summer was my first time in the UK (in all of Europe, actually)! We headed off for vacation on the 20th. Before we set off I bought some BBQ wings at Nick’s Place, the pizza place near my house. I liked wings, and I liked BBQ (from ASPR) so I figured I would like them together. I kinda didn’t though… they were too flavorful and soggy.</p>
-
-<p>My relationship with flights has changed a lot. I used to hate flying when I was a child, but I’ve grown to like it now. One aspect is the lack of internet. I’ve had a problem with being constantly online (checking Discord, social media, etc.) and being bombarded with stimulation, so it’s nice to relax and be cut off for a while.</p>
-
-<p>Another aspect has to be the change in perspective. Watching the world from the plan gives you a different scope of existence. You can look down and watch the world fade away into the clouds, or the spread of pollution and forests and farms. You can see the urban sprawl and road configurations. Some are circular, some linear. You can watch geographic processes. The rivers squiggle and the shipping ports have little blocks.</p>
-
-<p>I also love flying because I’ve made it (and most long-distance forms of transportation) my time to read. I finished Atomic Habits on the plane and took a small nap, since due to time zones it would be 2 am ET when we arrived (time for sleep!) but 7 am BST (time for being awake and doing things).</p>
-
-<p>Generally though, I love time zone changes, especially when I’m gaining time. In Taiwan my jetlag made me wake up at 5 am and sleep at 8 or 9, which is amazing. I was able to see the sun rise and sleep at a reasonable time.</p>
-
-<p>The last two flights I was on were ones where I went alone (first to Taiwan for ASPR and then to Michigan for Science Olympiad Nationals), so it was the first flight in a while with family. The food on both this flight and the one to Taiwan were great though! I don’t know why people don’t like airplane food. I think it tastes amazing. We were on a Delta plane (just like on my trip to Michigan), so once we left I asked the pilot for Delta trading cards to add to my collection. He handed me a shiny card for the Airbus A330 (I started collecting on my Michigan trip).</p>
-
-<p>From the airport we were driven to our hotel, which was beautiful and had really comfy beds overflowing with pillows. The whole city of London was beautiful, with historical monuments and architecture everywhere. I was surprised at first that all the famous spots/tourist destinations were so close to each other that we could see a billion of them on a short ride from a sightseeing bus (a double decker! my first time on one), but then I remembered Lexington also has a billion tourist spots. We took a boat that showed us around Big Ben and the London Eye. We had dinner and I got a poke bowl, which wasn’t all that good. Maybe it was because I ordered an aubergine one? It was interesting that the drivers’ seat was on the right, and as a consequence people turned left and passed on the right. I had always wondered while biking if the right hand side direction in the US was just an arbitrary convention and apparently it is??? Seeing the difference reminded me of a trick that Mitnick described in his book when getting a false drivers’ license, where you say that you’ve been driving in the UK for a bit and want to renew your skills with a new driving test.</p>
-
-<p>I had slept for all of one and a half hours that day so I promptly fell asleep at 7:30 pm. I awoke multiple times throughout the night but finally awake fully at 4:30 am (hey, just like ASPR in Taiwan! Looks like the jetlag is working for me after all). I opened my phone and checked my Discord for the first time (I didn’t have data, or at least was trying to use it less, which was pleasant) and was bombarded by a bunch of stuff to do. By the time I was done it was 6, so I took a shower and headed down for breakfast. It was fantastic (I guess that’s why a full english breakfast is famous?) and it was my first time trying crumpets.</p>
-
-<p>It was rainy and cold the second day. We took a tour bus led by this lovely old lady. That’s the other thing about Britain: the accents are really nice. I was glad to see my carsickness had subsided a bit (I threw up twice on the 8 hour ride to ARML) but maybe it was because I was sitting near the front of the bus. I slept a lot during the ride. We visited Stonehenge first. I was more enamoured by the huts and the sheep. Stonehenge was cool, though. It was just a bunch of rocks, but if I was a prehistoric person and moved those giant rocks, I’d want people to remember it too.</p>
-
-<p>We couldn’t go close to the rocks because it was muddy and they were afraid we’d make them move, but the huts were really interesting! They looked exactly like you’d draw a generic hut. The roof, which looked like it was made of straw, was made of thin branches on closer inspection, and the walls made of rock(?) How??? The bed was wooden with a wooden pillow. There were also lots of sheep around (just like ASPR!)</p>
-
-<p>We went to Windsor Palace after. We “toured” it, but really there was just one place to tour: St. George’s chapel. I lit a few candles and looked at the marble tombs (it was interesting to just have the corpse in the chapel?) There wasn’t much else to do there so we had dinner, which was beef noodle soup. It was funny that we traveled all the way to the UK just for asian food, but I mean you can’t deny that beef noodle soup is really good (just as good at the beef noodle soup I had at the airport in Taiwan on the way back from ASPR!)</p>
-
-<p>Over the next three days we visited St. Paul’s cathedral (where they had a statue of Cornwallis??), the Tower of London, and Cambridge (we went punting!). Some notes: I tried Five Guys for the first time! They sure liked the Duke of Wellington, there are so many statues and places named after him.</p>
-
-<p>Our last destination was Oxford. The whole city was quite pretty and gave me a new appreciation for both how you could walk amidst such beautiful (and sometiimes antique) architecture and live in such an environment, and also how walkable everything was in a city, where you could visit any location you wished in a short 10 minute walk.</p>
-
-<p>The other thing about old structures I’ve only recently had an appreciation for: you can really feel like you’re stepping in the footsteps of history, and imagine people from centuries past roaming around the same buildings you walk around.</p>
-
-<p>The trip also taught me a bit about British history, though not that much. Listening to the tour guides, you think all that’d happened were Napoleon being defeated by the Duke of Wellington, Cromwell and the Civil War, the Great Fire of 1666, and King Henry VIII and all his exploits.</p>
-
-<p>We returned home on August 28, on a Virgin Atlantic flight. It was my first VA flight and I’m not sure if it was a VA thing or a Europe thing, but it was different than the flights I’ve been in before, both at the airport and in the airplane (afternoon tea comes to mind, as well as the lack of seating outside the departure gate - chairs are only provided AFTER you check in).</p>
-
-<p>On the flight I switched reading between The Elements of Computing Systems and The Diamond Age. I read the first since I was inspired to learn more about the inner workings of computers after BWSI, and the second after I’d seen lots of recommendations for it recently. I guess it’s quite apt to read it with the idea of generative AI tutors floating around (who wouldn’t want a copy of the Young Lady’s Illustrated Primer)? The book is very easy to get through and has lots of fun references. It reads quite modern despite being written in the 20th century.</p>
-
-<p>My totally subjective and likely inaccurate airport rankings so far goes: TPE (super cute exhibitions and delicious beef noodle soup!), BOS (baseline, where I leave from), LGA - the airport I got stuck at in New Jersey (due to having to pull an all-nighter and eating way too much Dunkin) and LON (no seating area outside :(( ).</p>
-
-<p>It was a fun time and a nice break overall, but now it’s time to head back to school!</p>]]></content><author><name>stephanie</name></author><summary type="html"><![CDATA[I use a chrome extension which gives me new quotes on every tab. I’ve saved up so many good quotes throughout the years, so I’ll be starting my posts with a quote from now on.]]></summary></entry><entry><title type="html">Hacknight</title><link href="http://localhost:4000/2024/08/22/Hacknight.html" rel="alternate" type="text/html" title="Hacknight" /><published>2024-08-22T00:00:00-04:00</published><updated>2024-08-22T00:00:00-04:00</updated><id>http://localhost:4000/2024/08/22/Hacknight</id><content type="html" xml:base="http://localhost:4000/2024/08/22/Hacknight.html"><![CDATA[<p>This is super late, but I want to talk a bit about Hacknight, a hackathon at BB&amp;N. It was my first hackathon that I won, and though I’m a bit biased since I won, it’s been my favorite hackathon yet!</p>
-
-<p>I had been to larger hackathons like Blueprint before, so seeing a contest run by a high school was pretty wholesome, in the way that smaller clubs are more wholesome than big ones, since you see the hiccups and imperfections along the way. One example is the awards ceremony, where instead of having this polished rehearsed ceremony where there’s a stage and people are secretly told beforehand and do demos, it was a slideshow and a quick receiving of awards. Or the pin maker, where we were directed to a different room to make pins at Angelhacks, here we weren’t really told about it except in quick passing and we had access throughout.</p>
-
-<p>I arrived a day early to join in on the learnathon. My club members weren’t coming until later, so during lunch when I saw two people asking a third person if they wanted to join their group, I asked if they needed a fourth. Thus the team was formed. They announced the hackathon theme was “sidequest”, so we started brainstorming over dinner. The food at the hackathon was amazing, by the way.</p>
-
-<p>We found a room for ourselves, and came up with the idea of a google extension. One of the members had experience with making google extensions, and they said it was super simple, just like a webpage but with a manifest.json file. Our idea was that the google extension would alert you every few minutes to take a break by playing a minigame (a “sidequest”). We headed out to go to a workshop for making a website where they were giving out free boba!</p>
-
-<p>I headed to bed around 12, and woke up early the next day for breakfast. I saw that my club members were here and greeted them, then I returned to my team. The rest of the day went pretty smooth. We made different minigames, a logo, and a default container webpage with a points system. We named it SideQuest.</p>
-
-<p>Then it was time for judging. The way it worked is we first a peer judging system, then the organizers would judge the submissions. We took turns presenting and checking out other teams, where we voted for them using candy!</p>
-
-<p>Before the awards ceremony, we cleaned up our room and one of my teammates, who was a student at BB&amp;N, gave us a tour. Then we returned and learned that we won first place overall, both in judging and by having the most candy votes! We were really happy and high-fived each other before going to the front to claim our prize (Raspberry Pis). We took our candy cup and also more candy from a giant bag. The candy was sweet.</p>
-
-<p>Finally, we went out for pictures, then everyone began to leave. We exchanged contact info, and the hackathon was over.</p>
-
-<p>You can download our app from the Chrome Web Store <a href="https://chromewebstore.google.com/detail/sidequest/lndafcnkmnkbjdoijfnceebpaejmhhdp">here</a>.
-You can check out our code <a href="https://github.com/swan-07/sidequest/tree/main">here</a>.</p>]]></content><author><name>stephanie</name></author><summary type="html"><![CDATA[This is super late, but I want to talk a bit about Hacknight, a hackathon at BB&amp;N. It was my first hackathon that I won, and though I’m a bit biased since I won, it’s been my favorite hackathon yet!]]></summary></entry><entry><title type="html">Lexington Sprouts</title><link href="http://localhost:4000/2024/08/22/Lexington-Sprouts.html" rel="alternate" type="text/html" title="Lexington Sprouts" /><published>2024-08-22T00:00:00-04:00</published><updated>2024-08-22T00:00:00-04:00</updated><id>http://localhost:4000/2024/08/22/Lexington-Sprouts</id><content type="html" xml:base="http://localhost:4000/2024/08/22/Lexington-Sprouts.html"><![CDATA[<p>Another summer, another year of LexSprouts. Oh, I really should say AlltheSprouts now, since we’re no longer just in Lexington. Hopkinton opened their branch recently.</p>
-
-<p>Science Outdoors went smoothly, as usual. We opened up registration, received a bunch of responses, then went through all of them to narrow down our list to 10-15 students. We booked a room in the Community Center and prepared lesson plans. With 5 teachers to switch between, no one felt overwhelmed and we got to teach everything that we felt was fun (science mainly, hence the course name, but I also got a lockpicking lecture in there too!)</p>
-
-<p>The last day went great. The students loved the competition, and we also ordered pizza and candy.</p>
-
-<p>Slice of Art went well, also! I taught a few classes to the kids, starting with still life (an apple), the human figure, then portrait.</p>]]></content><author><name>stephanie</name></author><summary type="html"><![CDATA[Another summer, another year of LexSprouts. Oh, I really should say AlltheSprouts now, since we’re no longer just in Lexington. Hopkinton opened their branch recently.]]></summary></entry><entry><title type="html">Beaver Works Summer Institute</title><link href="http://localhost:4000/2024/08/06/Beaver-Works-Summer-Institute.html" rel="alternate" type="text/html" title="Beaver Works Summer Institute" /><published>2024-08-06T00:00:00-04:00</published><updated>2024-08-06T00:00:00-04:00</updated><id>http://localhost:4000/2024/08/06/Beaver-Works-Summer-Institute</id><content type="html" xml:base="http://localhost:4000/2024/08/06/Beaver-Works-Summer-Institute.html"><![CDATA[<p>Over the last month, I attended Beaver Works Summer Institute (BWSI). BWSI is a summer engineering program for high schoolers, with both online and in-person options and a variety of different course options, from unmanned aerial vehicles to e-textiles. I took the Embedded Security and Hardware Hacking course, a class in-person at MIT over the span of a month. It was absolutely amazing.</p>
-
-<p>Class took place every day from 10 am - 5 pm, but since I live around 40 minutes away by bus (and the Red Line decided to break down right as the course began until halfway through), I was waking up at 7:30 - 8:30 am every day. Sometimes when I’d miss the bus, I’d get creative. I went on a nature walk once trying to find a different bus station. I biked to Alewife multiple times, trying out different routes. When the Red Line was down, I sometimes walked 40 minutes from Harvard to MIT, other times I took the express and non-express shuttle buses. I listened to audiobooks, finishing “Cat’s Cradle” by Vonnegut, “Ghost in the Wires” by Mitnick, and “The Phantom Tollbooth” by Juster. It was fun, a time of exploration.</p>
-
-<p>We would have lectures and labs in class. We had a pot of grass that people could touch, and a pot of marbles as a counter for when an instructor said “chat”. We had guest lecturers on cryptography and side channel attacks, from DPA to Spectre and Meltdown. All the instructors were really cool, and a learned a lot about computers, C, hacking, and reverse engineering.</p>
-
-<p>About a week in, we split into groups and were given tiva boards for our final project, coding a bootloader and a protocol for securely transmitting firmware onto it. I made lots of friends, and during lunch I’d try to find instructors to sit outside with us (the sunlight felt nice).</p>
-
-<p>Speaking of lunches, they were great. Each week we had lunch from a different catering service, though the base principles of a sandwich/salad, chips, water, and perhaps a cookie or pickle remained. The food was tasty and I tried a litany of options.</p>
-
-<p>Every day after lunch we had a speaker in the auditorium. The speakers were from a variety of backgrounds and perspectives, but they were all interesting and cool. We had a tour of Draper, which was awesome. The Draper CEO came in to speak, and afterwards called a few people and me up to give us internship offers. I was excited, and we took pictures together.</p>
-
-<p>On the weekends we would meet as a class sometimes. We met up together for the MIT SwapFest. I biked for 1.5 hours each way from my house, which was super fun. I got a ladybug drone from the SwapFest.</p>
-
-<p>After class I would hang out with my friends on campus at RSI. Sometimes I’d visit them at their makerspaces (metropolis!) or just at the student center, and we’d have fun together, brainstorming and learning lockpicking and having fun.</p>
-
-<p>The day before the final day, we stayed after to help set up the arena. We had a pizza party, and then I visited the caving club to learn to tie knots in a stairwell.</p>
-
-<p>On the final day (Saturday), we went upstairs to the embsec presentation area. I had been informed just hours before that beyond my normal group presentation, I was also presenting an exploit with a friend during our “camera time”. I made slides and practiced hurriedly, but the presentation went well during the canera time itself.</p>
-
-<p>I felt that it was really echo-y, but the camera’s mic was good and didn’t pick up any of the echo. i was pleasantly surprised during the camera time when the lead instructor began giving out trophies/awards. I was given a cute among us statue with Confidentiality, Integrity, and Authenticity written on it, as well as the letters MVP. They declared it was an overall award for the best “among us”, which I found hilarious.</p>
-
-<p>We went down to have lunch from the food trucks after, and while the lines were long, a group let me go before them to demonstrate how to order (and because they were remote, and their friend was my groupmate). The food was delicious, with fried chicken bits and ice cream and chips. I met some friends from my school and an old brother of one of them, who was previously an instructor for embsec.</p>
-
-<p>Afterwards all of embsec met up outside, and undering the scorching sun we gave farewell speeches. When I went home on the T with a friend from the course, I saw friends from my school. It was a nice send off, and though I left BWSI on the red line, I’ll carry the memories and what I learned with me.</p>]]></content><author><name>stephanie</name></author><summary type="html"><![CDATA[Over the last month, I attended Beaver Works Summer Institute (BWSI). BWSI is a summer engineering program for high schoolers, with both online and in-person options and a variety of different course options, from unmanned aerial vehicles to e-textiles. I took the Embedded Security and Hardware Hacking course, a class in-person at MIT over the span of a month. It was absolutely amazing.]]></summary></entry><entry><title type="html">First Post</title><link href="http://localhost:4000/2024/06/03/first-post.html" rel="alternate" type="text/html" title="First Post" /><published>2024-06-03T00:00:00-04:00</published><updated>2024-06-03T00:00:00-04:00</updated><id>http://localhost:4000/2024/06/03/first-post</id><content type="html" xml:base="http://localhost:4000/2024/06/03/first-post.html"><![CDATA[<p>Welcome to my blog :)</p>
-
-<p>This is the first post. I’ll update more soon, but you can find my old posts at <a href="https://swan07.vercel.app/">my old website</a>.</p>]]></content><author><name>stephanie</name></author><summary type="html"><![CDATA[Welcome to my blog :)]]></summary></entry></feed>
+``` -->
+
+    <footer style="text-align: center; margin-top: 2rem; padding: 1rem; border-top: 1px solid #eee; font-size: 0.9rem; color: #666;">
+      Total site views: <span id="total-views">0</span>
+    </footer>
+  </body>
+</html>
