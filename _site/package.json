@@ -1,0 +1,21 @@
+{
+  "name": "swan-07.github.io",
+  "version": "1.0.0",
+  "description": "blog is built with jekyll https://swan-07.github.io/",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swan-07/swan-07.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/swan-07/swan-07.github.io/issues"
+  },
+  "homepage": "https://github.com/swan-07/swan-07.github.io#readme"
+}
