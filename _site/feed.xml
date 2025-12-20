@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-12-08T19:04:34-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Bci</title><link href="http://localhost:4000/2025/12/07/BCI.html" rel="alternate" type="text/html" title="Bci" /><published>2025-12-07T00:00:00-05:00</published><updated>2025-12-07T00:00:00-05:00</updated><id>http://localhost:4000/2025/12/07/BCI</id><content type="html" xml:base="http://localhost:4000/2025/12/07/BCI.html"><![CDATA[<p>Some of you may remember my last project with <a href="https://swan-07.github.io/assets/images/projects/treeflap.mp4">EEG-brain computer interfaces</a>. It was fun, though the project was limited by budgetary constraints (which was one of its selling points - a fun EEG project for under $30). As such, the data was pretty noisy, giving me limited control.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-12-20T16:15:47-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Bci</title><link href="http://localhost:4000/2025/12/07/BCI.html" rel="alternate" type="text/html" title="Bci" /><published>2025-12-07T00:00:00-05:00</published><updated>2025-12-07T00:00:00-05:00</updated><id>http://localhost:4000/2025/12/07/BCI</id><content type="html" xml:base="http://localhost:4000/2025/12/07/BCI.html"><![CDATA[<p>Some of you may remember my last project with <a href="https://swan-07.github.io/assets/images/projects/treeflap.mp4">EEG-brain computer interfaces</a>. It was fun, though the project was limited by budgetary constraints (which was one of its selling points - a fun EEG project for under $30). As such, the data was pretty noisy, giving me limited control.</p>
 
 <p>Luckily, I now have the opportunity to explore further. Professor Abhishek’s lab has all of these OpenBCI boards and electrodes (which would cost thousands typically) and he was nice enough to give me essentially free reign on playing around with them! I’m pretty excited to explore, and I’ll document my journey here.</p>
 
@@ -695,7 +695,7 @@ CODE: (SPOILERS BELOW!!!)
 
 ``` -->]]></content><author><name>stephanie</name></author><summary type="html"><![CDATA[Today is the first day of December, so you know what that means… Advent of Code!]]></summary></entry><entry><title type="html">Hack the north</title><link href="http://localhost:4000/2024/09/17/Hack-the-North.html" rel="alternate" type="text/html" title="Hack the north" /><published>2024-09-17T00:00:00-04:00</published><updated>2024-09-17T00:00:00-04:00</updated><id>http://localhost:4000/2024/09/17/Hack%20the%20North</id><content type="html" xml:base="http://localhost:4000/2024/09/17/Hack-the-North.html"><![CDATA[<p>Hack the North was this weekend!</p>
 
-<p><img src="../../../assets/images/projects/htn/subtitlesforhumans.jpg" alt="image" /></p>
+<p><img src="../../../assets/images/projects/htn/subtitlesforhumans.jpg" width="600" /></p>
 
 <p>Three days before, I knew that I wouldn’t be able to eat home food for a while (since I’d be in Canada), so I decided to try cooking dinner for the first time. On Tuesday, I made soy sauce salmon with rice, seaweed, and cucumber. On Wednesday I made fried rice using the leftover rice. On Thursday I made pineapple pizza for breakfast. It was for breakfast because…</p>
 
@@ -704,10 +704,11 @@ CODE: (SPOILERS BELOW!!!)
 
 <p>2) I had to wake up super early! On Thursday, I packed my bags, then slept early at 8 (so I ate the pizza for breakfast instead of dinner) to wake up at 2:30 am the next morning (that’s when I sleep sometimes…). I went out at 3:00 am, and everything seemed so empty. The roads were nice and quiet. By 3:30, I arrived at Logan, then reached my gate at 4. I slept for a little, then it was my flight.</p>
 
-<p>I arrived at 8 am and finished my HEXT homework. Using the code for http://karpathy.github.io/2015/05/21/rnn-effectiveness/, I also had some fun training a character RNN model on my Discord messages. It improved pretty quickly, and it was fun to watch. 
-<img src="../../../assets/images/beginning.png" alt="image" /></p>
+<p>I arrived at 8 am and finished my HEXT homework. Using the code for http://karpathy.github.io/2015/05/21/rnn-effectiveness/, I also had some fun training a character RNN model on my Discord messages. It improved pretty quickly, and it was fun to watch.</p>
 
-<p><img src="../../../assets/images/end.png" alt="image" /></p>
+<p><img src="../../../assets/images/beginning.png" width="500" /></p>
+
+<p><img src="../../../assets/images/end.png" width="500" /></p>
 
 <p>I also made a little game for fun which scraped posts from r/aita and given the text, had you guess what the final verdict was.</p>
 
@@ -715,7 +716,7 @@ CODE: (SPOILERS BELOW!!!)
 
 <p>When we arrived it was time for dinner. Afterwards I went to the team formation activity, where I met two people who also wanted to try out a hardware project. I was excited because that was my goal this hackathon, so we formed a team and moved over to the Hardware Bay. We discussed project ideas. Our first idea was glasses that gave subtitles about the world around you, but it was a little unfeasible. We decided instead to do the reverse, where you had a wearable shirt with a screen that displayed subtitles of what you were saying to the world. We requested our hardware and went to bed.</p>
 
-<p><img src="../../../assets/images/projects/htn/layout.JPG" alt="image" /></p>
+<p><img src="../../../assets/images/projects/htn/layout.JPG" width="500" /></p>
 
 <p>I got 5-6 hours of sleep, which isn’t too bad for an overnight hackathon! I was a little worried about sleep - I also only got around 4-6 the day before and I wasn’t expecting to sleep much the second night when I was in the thick of the hackathon.</p>
 
@@ -723,39 +724,39 @@ CODE: (SPOILERS BELOW!!!)
 
 <p>By lunchtime we had the hardware assembled and the pygame display working.</p>
 
-<p><img src="../../../assets/images/projects/htn/screentest.png" alt="image" /></p>
+<p><img src="../../../assets/images/projects/htn/screentest.png" width="500" /></p>
 
 <p>Assembling the hardware and reading the documentation was really helpful for learning how electronics/everything worked. My soldering abilities I was developing came in handy when we needed to de- and re-solder parts of the microphone to make it less bulky.</p>
 
-<p><img src="../../../assets/images/projects/htn/mic.png" alt="image" /></p>
+<p><img src="../../../assets/images/projects/htn/mic.png" width="400" /></p>
 
-<p><img src="../../../assets/images/projects/htn/solderingmic.png" alt="image" /></p>
+<p><img src="../../../assets/images/projects/htn/solderingmic.png" width="400" /></p>
 
 <p>By dinner, we got the transcription working, so we went out to get boba to celebrate. I had a blueberry boba, which was delicious.</p>
 
-<p><img src="../../../assets/images/projects/htn/boba.png" alt="image" /></p>
+<p><img src="../../../assets/images/projects/htn/boba.png" width="400" /></p>
 
 <p>We 3D printed a case for the screen adn the raspberry pi 5 that powered it, which was really helpful because the rp5 went up to 98 C sometimes and this was supposed to be wearable.</p>
 
-<p><img src="../../../assets/images/projects/htn/partswithcase.png" alt="image" /></p>
+<p><img src="../../../assets/images/projects/htn/partswithcase.png" width="500" /></p>
 
 <p>We found a large sweater and spray painted it completely black (my first time spray painting!).</p>
 
-<p><img src="../../../assets/images/projects/htn/outfit1.png" alt="image" /></p>
+<p><img src="../../../assets/images/projects/htn/outfit1.png" width="500" /></p>
 
 <p>We then sewed it all together and made a devpost for submission. We submitted 2 minutes before the deadline, but we made it! We celebrated by taking 1-hour naps before we had to prepare for the presentation. We made a script and practiced our presentation, then it was time and we went, and then the hackathon was nearly over.</p>
 
-<p><img src="../../../assets/images/projects/htn/outfit2.png" alt="image" /></p>
+<p><img src="../../../assets/images/projects/htn/outfit2.png" width="500" /></p>
 
-<p><img src="../../../assets/images/projects/htn/me.png" alt="image" /></p>
+<p><img src="../../../assets/images/projects/htn/me.png" width="400" /></p>
 
 <p>My earlier prediction was right: I only got 1 hour of sleep over the night. There were so many sponsors at the event that gave out swag (and there was so much swag also!) as well as delicious snacks like soup, chocolate, kinder eggs, and chips available. The event was super fun overall.</p>
 
 <p>It was time to return, so we got back onto the bus, which was a school bus. Then it was time for my flight home. I was utterly exhausted returning on Monday, but happy.</p>
 
-<video src="../../../assets/images/projects/htn/transcription.mov" width="320" height="240" controls=""></video>
+<video src="/assets/images/projects/htn/transcription.mp4" width="600" controls=""></video>
 
-<video src="../../../assets/images/projects/htn/translation.mov" width="320" height="240" controls=""></video>
+<video src="/assets/images/projects/htn/translation.mp4" width="600" controls=""></video>
 
 <p>You can find our github repo here: https://github.com/Project-Tee/Project-Tee/tree/main</p>
 
@@ -775,7 +776,7 @@ CODE: (SPOILERS BELOW!!!)
 
 <p>I met so many new friends and I truly think ASPR was an amazing experience that changed who I am as a person.</p>
 
-<p>I used to think that ASPR had shown me paradise on earth, hidden from the world and tucked away in a sheep farm in the rural mountains of Taiwan where I could spend all day walking through nature and talking of technology and philosophy. I realize how that all it had done was open my eyes to show me that paradise was already here on earth. There are nature walks hidden near me, too, connecting Joyce Miller’s Meadow to Arlington’s Great Fields. There are interesting people to have conversations with in my hometown - all people are naturally interesting, due to their deep, rich existences and lives. We just don’t notice it normally. We live in the cyberpunk paradies of my sci-fi dreams, where we’ve bested nature with technology and we can make anything we imagine with what we have around us. All we need to do is open our eyes.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[“All models are wrong, but some are useful.” - every statistics textbook, but most relevantly to me, Modeling Social Behavior by Smaldino.]]></summary></entry><entry><title type="html">England Trip</title><link href="http://localhost:4000/2024/08/24/England-trip.html" rel="alternate" type="text/html" title="England Trip" /><published>2024-08-24T00:00:00-04:00</published><updated>2024-08-24T00:00:00-04:00</updated><id>http://localhost:4000/2024/08/24/England-trip</id><content type="html" xml:base="http://localhost:4000/2024/08/24/England-trip.html"><![CDATA[<p>I use a chrome extension which gives me new quotes on every tab. I’ve saved up so many good quotes throughout the years, so I’ll be starting my posts with a quote from now on.</p>
+<p>I used to think that ASPR had shown me paradise on earth, hidden from the world and tucked away in a sheep farm in the rural mountains of Taiwan where I could spend all day walking through nature and talking of technology and philosophy. I realize how that all it had done was open my eyes to show me that paradise was already here on earth. There are nature walks hidden near me, too, connecting Joyce Miller’s Meadow to Arlington’s Great Fields. There are interesting people to have conversations with in my hometown - all people are naturally interesting, due to their deep, rich existences and lives. We just don’t notice it normally. We live in the cyberpunk paradies of my sci-fi dreams, where we’ve bested nature with technology and we can make anything we imagine with what we have around us. All we need to do is open our eyes.</p>]]></content><author><name>stephanie</name></author><summary type="html"><![CDATA[“All models are wrong, but some are useful.” - every statistics textbook, but most relevantly to me, Modeling Social Behavior by Smaldino.]]></summary></entry><entry><title type="html">England Trip</title><link href="http://localhost:4000/2024/08/24/England-trip.html" rel="alternate" type="text/html" title="England Trip" /><published>2024-08-24T00:00:00-04:00</published><updated>2024-08-24T00:00:00-04:00</updated><id>http://localhost:4000/2024/08/24/England-trip</id><content type="html" xml:base="http://localhost:4000/2024/08/24/England-trip.html"><![CDATA[<p>I use a chrome extension which gives me new quotes on every tab. I’ve saved up so many good quotes throughout the years, so I’ll be starting my posts with a quote from now on.</p>
 
 <p>“The light which puts out our eyes is darkness to us. Only that day dawns to which we are awake. There is more day to dawn. The sun is but a morning star.” - Thoreau</p>
 
