@@ -29,12 +29,8 @@
 <lastmod>2024-09-17T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2025/12/01/Advent-Of-Code.html</loc>
-<lastmod>2025-12-01T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2025/12/07/BCI.html</loc>
-<lastmod>2025-12-07T00:00:00-05:00</lastmod>
+<loc>http://localhost:4000/2026/02/17/Pieces-from-Basic-Painting.html</loc>
+<lastmod>2026-02-17T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/art.html</loc>
@@ -44,6 +40,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/bucketlist</loc>
+</url>
+<url>
+<loc>http://localhost:4000/drone.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
@@ -64,5 +63,9 @@
 <url>
 <loc>http://localhost:4000/assets/Transparent%20Authorship%20Verification.pdf</loc>
 <lastmod>2025-11-24T14:17:10-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/images/projects/Artificial-Intelligence-A-Modern-Approach-4th-Edition-1-compressed-part1.pdf</loc>
+<lastmod>2026-01-13T13:24:04-05:00</lastmod>
 </url>
 </urlset>

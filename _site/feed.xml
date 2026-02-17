@@ -1,699 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-12-20T16:15:47-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Bci</title><link href="http://localhost:4000/2025/12/07/BCI.html" rel="alternate" type="text/html" title="Bci" /><published>2025-12-07T00:00:00-05:00</published><updated>2025-12-07T00:00:00-05:00</updated><id>http://localhost:4000/2025/12/07/BCI</id><content type="html" xml:base="http://localhost:4000/2025/12/07/BCI.html"><![CDATA[<p>Some of you may remember my last project with <a href="https://swan-07.github.io/assets/images/projects/treeflap.mp4">EEG-brain computer interfaces</a>. It was fun, though the project was limited by budgetary constraints (which was one of its selling points - a fun EEG project for under $30). As such, the data was pretty noisy, giving me limited control.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-02-17T15:11:54-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Pieces From Basic Painting</title><link href="http://localhost:4000/2026/02/17/Pieces-from-Basic-Painting.html" rel="alternate" type="text/html" title="Pieces From Basic Painting" /><published>2026-02-17T00:00:00-05:00</published><updated>2026-02-17T00:00:00-05:00</updated><id>http://localhost:4000/2026/02/17/Pieces-from-Basic-Painting</id><content type="html" xml:base="http://localhost:4000/2026/02/17/Pieces-from-Basic-Painting.html"><![CDATA[<p>Some of my favorite pieces from my Basic Painting class.</p>
 
-<p>Luckily, I now have the opportunity to explore further. Professor Abhishek’s lab has all of these OpenBCI boards and electrodes (which would cost thousands typically) and he was nice enough to give me essentially free reign on playing around with them! I’m pretty excited to explore, and I’ll document my journey here.</p>
+<h2 id="task-1-color-cards">Task 1: Color Cards</h2>
 
-<p>Firstly, I wanted to just get one of these headsets assembled and ready to use. The issue is that the state of the art requires you to put this gel on the electrodes to decrease impedance, which is sticky and gets everywhere and kind of gross. I didn’t want to do that, so I decided to try the headband set, which seemed the most convenient (other options: the headcap, and the Cortex Mark IV which I 3D printed at the CEID).</p>
+<p><img src="/assets/images/art/basic_painting/task1colorcards.png" alt="Color Cards" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task1cardssortedhue.png" alt="Cards Sorted by Hue" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task1cardssortedvalue.png" alt="Cards Sorted by Value" style="max-width: 500px; width: 100%;" /></p>
 
-<p>So on a Sunday, I got to work downloading the OpenBCI GUI and learning how to assemble the headset with the Cyton board (the lab also has the Daisy module! What luxury!). I assembled the headset and hooked it up to my computer. After playing around with the OpenBCI GUI a little, I wrote a small proof-of-concept script. I gathered my brain data from concentrating (doing mental math) and relaxing (thinking of landscapes) and trained a classifier to distinguish between the data, then I made a little game where concentrating made the player go up and relaxing made it go down. You can also listen to me explain it here:</p>
+<h2 id="task-2-egg">Task 2: Egg</h2>
 
-<p><a href="https://www.loom.com/share/9dfabd1229dd41aaa7ba267894fb2606">EEG Demo 1</a></p>
+<p><img src="/assets/images/art/basic_painting/task2egg1.png" alt="Egg 1" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task2egg2.png" alt="Egg 2" style="max-width: 500px; width: 100%;" /></p>
 
-<p>Of course, since I only trained it on 20 5 second clips of each brain state, it had really low accuracy (65%), and the game is not the most exciting. There’s lots of ways to improve it.</p>
+<h2 id="task-3-cat-in-mcy">Task 3: Cat in MCY</h2>
 
-<p>Off-topic: I’ve met a few of the grad students at the lab and they’re super nice! There’s a gal who’s a masters student in computer architecture also in the Abhishek Bhattacharjee lab who’s doing research in the same room, and down the hall is a nice gal who’s a fourth-year PhD student in cloud security. It’s fun to see others around, though most of the time (or at least the times when I go in, which are usually weekends and afternoons) the rooms are empty.</p>
+<p><img src="/assets/images/art/basic_painting/task3catmcy.png" alt="Cat in MCY" style="max-width: 500px; width: 100%;" /></p>
 
-<p>TBC…</p>]]></content><author><name>stephanie</name></author><summary type="html"><![CDATA[Some of you may remember my last project with EEG-brain computer interfaces. It was fun, though the project was limited by budgetary constraints (which was one of its selling points - a fun EEG project for under $30). As such, the data was pretty noisy, giving me limited control.]]></summary></entry><entry><title type="html">Advent Of Code</title><link href="http://localhost:4000/2025/12/01/Advent-Of-Code.html" rel="alternate" type="text/html" title="Advent Of Code" /><published>2025-12-01T00:00:00-05:00</published><updated>2025-12-01T00:00:00-05:00</updated><id>http://localhost:4000/2025/12/01/Advent-Of-Code</id><content type="html" xml:base="http://localhost:4000/2025/12/01/Advent-Of-Code.html"><![CDATA[<p>Today is the first day of December, so you know what that means… <a href="https://adventofcode.com/">Advent of Code</a>!</p>
+<h2 id="task-4-color-contrasts">Task 4: Color Contrasts</h2>
 
-<p>Advent of Code (AoC) is a fun twist on the traditional Advent Calendar, where every day of December until Christmas there’s a new coding challenge. The coding challenges take the form of CodeForces-esque problems (testing your problem solving skills) and there’s two parts to each problem. Solving the first part gets you one star, solving both gets you two. Each problem is themed around saving Christmas with the Elves!</p>
+<p><img src="/assets/images/art/basic_painting/task4-1contrastofhue.png" alt="Contrast of Hue" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task4-2contrastofsaturation.png" alt="Contrast of Saturation" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task4-3contrastofwarmcool.png" alt="Contrast of Warm/Cool" style="max-width: 500px; width: 100%;" /></p>
 
-<p>Previously, AoC had 25 challenges but this year is the first time they’ll have 12. Also, there used to be a global leaderboard, but now there’s only private leaderboards.</p>
+<h2 id="task-5-value-focused-still-life">Task 5: Value-Focused Still Life</h2>
 
-<p>Either way, this is a really fun way to practice coding problem-solving skills! My private leaderboard code is 3472409-74ea4919 if you’d like to join, and I’ll document my journey through each day of AoC!</p>
+<p><img src="/assets/images/art/basic_painting/task5value-focusedstill-life.png" alt="Value-Focused Still Life" style="max-width: 500px; width: 100%;" /></p>
 
-<hr />
+<h2 id="task-6-painting-from-life-using-only-white-ultramarine-and-burnt-umber">Task 6: Painting From Life Using Only White, Ultramarine, and Burnt Umber</h2>
 
-<h1 id="-day-1-secret-entrance-">— Day 1: Secret Entrance —</h1>
+<p><img src="/assets/images/art/basic_painting/task6-referencefromlife.png" alt="Reference From Life" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task6-firstpaintingfromlife1.png" alt="First Painting From Life" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task6-finalusingonlywhiteultramarineandburntumber.png" alt="Final Using Only White, Ultramarine, and Burnt Umber" style="max-width: 500px; width: 100%;" /></p>
 
-<p>PART 1:</p>
+<h2 id="task-7-color-wheels-and-palette">Task 7: Color Wheels and Palette</h2>
 
-<p>TIME: 7:02</p>
+<p><img src="/assets/images/art/basic_painting/task7-colorwheels.png" alt="Color Wheels" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task7-palette.png" alt="Palette" style="max-width: 500px; width: 100%;" /></p>
 
-<p>CODE: (SPOILERS BELOW!!!)</p>
+<h2 id="task-8-inversereversed-color">Task 8: Inverse/Reversed Color</h2>
 
-<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dial</span> <span class="o">=</span> <span class="mi">50</span>
-<span class="n">password</span> <span class="o">=</span> <span class="mi">0</span>
+<p><img src="/assets/images/art/basic_painting/task8pendantinversecolor.png" alt="Pendant Inverse Color" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task8reversedcolor.jpg" alt="Reversed Color" style="max-width: 500px; width: 100%;" /></p>
 
-<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="n">rotation</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
-        <span class="k">if</span> <span class="n">rotation</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s">'L'</span><span class="p">:</span>
-            <span class="c1">#decrease
-</span>            <span class="n">dial</span> <span class="o">=</span> <span class="p">(</span><span class="n">dial</span><span class="o">-</span><span class="nb">int</span><span class="p">(</span><span class="n">rotation</span><span class="p">[</span><span class="mi">1</span><span class="p">:]))</span> <span class="o">%</span> <span class="mi">100</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">dial</span> <span class="o">=</span> <span class="p">(</span><span class="n">dial</span><span class="o">+</span><span class="nb">int</span><span class="p">(</span><span class="n">rotation</span><span class="p">[</span><span class="mi">1</span><span class="p">:]))</span> <span class="o">%</span> <span class="mi">100</span>
-        
-        <span class="k">if</span> <span class="n">dial</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-            <span class="n">password</span><span class="o">+=</span><span class="mi">1</span>
+<h2 id="task-9-landscape">Task 9: Landscape</h2>
 
-    <span class="k">except</span> <span class="nb">EOFError</span><span class="p">:</span>
-        <span class="k">break</span> 
-    <span class="k">except</span> <span class="nb">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-        <span class="k">break</span> 
+<p><img src="/assets/images/art/basic_painting/task9-base.png" alt="Base" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task9-puttingdowncolors.png" alt="Putting Down Colors" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task9-morecolors.png" alt="More Colors" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task9-restart.png" alt="Restart" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task9-finallandscape.png" alt="Final Landscape" style="max-width: 500px; width: 100%;" /></p>
 
-<span class="k">print</span><span class="p">(</span><span class="n">password</span><span class="p">)</span>
-</code></pre></div></div>
+<h2 id="task-10-transparent-self-portrait">Task 10: Transparent Self Portrait</h2>
 
-<p>PART 2:</p>
+<p><img src="/assets/images/art/basic_painting/task10transparentlotsofgalkyloilselfportraitbase1.png" alt="Self Portrait Base" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task10morepaintdown.png" alt="More Paint Down" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task10morepaint.png" alt="More Paint" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task10highlights.png" alt="Highlights" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task10blendedanddried.png" alt="Blended and Dried" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task10background.png" alt="Background" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task10morecolorsandhighlights.png" alt="More Colors and Highlights" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task10blendedout.png" alt="Blended Out" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task10dried.png" alt="Dried" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task10detail.png" alt="Detail" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task10final.png" alt="Final" style="max-width: 500px; width: 100%;" /></p>
 
-<p>TIME: 6:26</p>
+<h2 id="task-11-interaction-of-color">Task 11: Interaction of Color</h2>
 
-<p>CODE: (SPOILERS BELOW!!!)</p>
-
-<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dial</span> <span class="o">=</span> <span class="mi">50</span>
-<span class="n">password</span> <span class="o">=</span> <span class="mi">0</span>
-
-<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="n">rotation</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
-        <span class="n">dist</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">rotation</span><span class="p">[</span><span class="mi">1</span><span class="p">:])</span>
-        <span class="n">password</span> <span class="o">+=</span> <span class="n">dist</span><span class="o">//</span><span class="mi">100</span>
-        <span class="n">olddial</span> <span class="o">=</span> <span class="n">dial</span>
-
-        <span class="k">if</span> <span class="n">rotation</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s">'L'</span><span class="p">:</span>
-            <span class="c1">#decrease
-</span>            <span class="n">dial</span> <span class="o">=</span> <span class="p">(</span><span class="n">dial</span><span class="o">-</span><span class="n">dist</span><span class="p">)</span> <span class="o">%</span> <span class="mi">100</span>
-
-            <span class="c1">#if the new result is greater, then must've passed 0
-</span>            <span class="k">if</span> <span class="n">dial</span> <span class="o">&gt;</span> <span class="n">olddial</span> <span class="ow">and</span> <span class="n">olddial</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
-                <span class="n">password</span><span class="o">+=</span><span class="mi">1</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">dial</span> <span class="o">=</span> <span class="p">(</span><span class="n">dial</span><span class="o">+</span><span class="n">dist</span><span class="p">)</span> <span class="o">%</span> <span class="mi">100</span>
-
-            <span class="c1">#if the new result is less, then must've passed 0
-</span>            <span class="k">if</span> <span class="n">dial</span> <span class="o">&lt;</span> <span class="n">olddial</span> <span class="ow">and</span> <span class="n">dial</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
-                <span class="n">password</span><span class="o">+=</span><span class="mi">1</span>
-
-        
-        <span class="k">if</span> <span class="n">dial</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-            <span class="n">password</span> <span class="o">+=</span> <span class="mi">1</span>
-        
-    <span class="k">except</span> <span class="nb">EOFError</span><span class="p">:</span>
-        <span class="k">break</span> 
-    <span class="k">except</span> <span class="nb">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-        <span class="k">break</span> 
-
-<span class="k">print</span><span class="p">(</span><span class="n">password</span><span class="p">)</span>
-</code></pre></div></div>
-
-<h1 id="-day-2-gift-shop-">— Day 2: Gift Shop —</h1>
-
-<p>PART 1:</p>
-
-<p>TIME: 19:56</p>
-
-<p>I originally attempted to code it in Java to switch the language up a bit, but the large numbers made it much easier to do in python; as such, I switched to python.</p>
-
-<p>CODE: (SPOILERS BELOW!!!)</p>
-
-<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">ranges</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">().</span><span class="n">split</span><span class="p">(</span><span class="s">","</span><span class="p">)]</span>
-<span class="n">answer</span> <span class="o">=</span> <span class="mi">0</span>
-
-<span class="k">for</span> <span class="nb">range</span> <span class="ow">in</span> <span class="n">ranges</span><span class="p">:</span>
-    <span class="n">start</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="nb">range</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s">"-"</span><span class="p">)</span>
-    <span class="n">startint</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">start</span><span class="p">)</span>
-    <span class="n">endint</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">end</span><span class="p">)</span>
-
-    <span class="n">firsthalfstart</span> <span class="o">=</span> <span class="n">start</span><span class="p">[:</span><span class="nb">len</span><span class="p">(</span><span class="n">start</span><span class="p">)</span><span class="o">//</span><span class="mi">2</span><span class="p">]</span>
-    <span class="k">if</span> <span class="n">firsthalfstart</span> <span class="o">==</span> <span class="s">''</span><span class="p">:</span>
-        <span class="n">firsthalfstart</span> <span class="o">=</span> <span class="s">'1'</span>
-    <span class="n">firsthalfstartint</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">firsthalfstart</span><span class="p">)</span>
-
-    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
-        <span class="n">pattern</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">firsthalfstart</span><span class="o">+</span><span class="n">firsthalfstart</span><span class="p">)</span>
-        <span class="k">if</span> <span class="p">(</span><span class="n">pattern</span> <span class="o">&lt;=</span> <span class="n">endint</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">pattern</span> <span class="o">&gt;=</span> <span class="n">startint</span><span class="p">):</span>
-            <span class="n">answer</span> <span class="o">+=</span> <span class="n">pattern</span>
-            <span class="n">firsthalfstartint</span> <span class="o">+=</span> <span class="mi">1</span>
-            <span class="n">firsthalfstart</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">firsthalfstartint</span><span class="p">)</span>
-        <span class="k">elif</span> <span class="n">pattern</span> <span class="o">&lt;</span> <span class="n">startint</span><span class="p">:</span>
-            <span class="n">firsthalfstartint</span> <span class="o">+=</span> <span class="mi">1</span>
-            <span class="n">firsthalfstart</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">firsthalfstartint</span><span class="p">)</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="k">break</span>
-
-
-<span class="k">print</span><span class="p">(</span><span class="n">answer</span><span class="p">)</span>
-
-</code></pre></div></div>
-
-<p>PART 2:</p>
-
-<p>TIME: 6:45</p>
-
-<p>This code is a little slow, it takes around 10 seconds to run.</p>
-
-<p>CODE: (SPOILERS BELOW!!!)</p>
-
-<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ranges</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">().</span><span class="n">split</span><span class="p">(</span><span class="s">","</span><span class="p">)]</span>
-<span class="n">answer</span> <span class="o">=</span> <span class="mi">0</span>
-
-<span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">ranges</span><span class="p">:</span>
-    <span class="n">start</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="n">r</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s">"-"</span><span class="p">)</span>
-    <span class="n">startint</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">start</span><span class="p">)</span>
-    <span class="n">endint</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">end</span><span class="p">)</span>
-
-    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">startint</span><span class="p">,</span> <span class="n">endint</span><span class="p">):</span>
-        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">))</span><span class="o">//</span><span class="mi">2</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-            <span class="n">repeat</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)[:</span><span class="n">i</span><span class="p">]</span>
-            <span class="n">repeated</span> <span class="o">=</span> <span class="bp">True</span>
-            <span class="k">for</span> <span class="n">section</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)),</span> <span class="n">i</span><span class="p">):</span>
-                <span class="k">if</span> <span class="n">repeat</span> <span class="o">!=</span> <span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)[</span><span class="n">section</span> <span class="p">:</span> <span class="n">section</span><span class="o">+</span><span class="n">i</span><span class="p">]:</span>
-                    <span class="n">repeated</span> <span class="o">=</span> <span class="bp">False</span>
-                    <span class="k">break</span>
-            <span class="k">if</span> <span class="n">repeated</span><span class="p">:</span>
-                <span class="n">answer</span> <span class="o">+=</span> <span class="n">n</span>
-                <span class="k">break</span>
-
-
-
-<span class="k">print</span><span class="p">(</span><span class="n">answer</span><span class="p">)</span>
-</code></pre></div></div>
-
-<h1 id="-day-3-lobby-">— Day 3: Lobby —</h1>
-
-<p>PART 1:</p>
-
-<p>TIME: 25:41</p>
-
-<p>I accidentally drank some tea at around 11. It had caffeine, so I couldn’t sleep at 3 am and decided to do Advent of Code instead. I wanted to revisit Java since I missed it (Java was my first coding language, back when I was a student at KTByte), so Java it was for today.</p>
-
-<p>CODE: (SPOILERS BELOW!!!)</p>
-
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">java.io.*</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">java.util.StringTokenizer</span><span class="o">;</span>
-
-<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Main</span> <span class="o">{</span>
-	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="kd">throws</span> <span class="nc">IOException</span> <span class="o">{</span>
-		<span class="nc">BufferedReader</span> <span class="n">r</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">BufferedReader</span><span class="o">(</span><span class="k">new</span> <span class="nc">InputStreamReader</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">in</span><span class="o">));</span>
-		<span class="nc">PrintWriter</span> <span class="n">pw</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">PrintWriter</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">);</span>
-        <span class="nc">String</span> <span class="n">line</span><span class="o">;</span>
-
-        <span class="kt">int</span> <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
-        <span class="k">while</span> <span class="o">((</span><span class="n">line</span> <span class="o">=</span> <span class="n">r</span><span class="o">.</span><span class="na">readLine</span><span class="o">())</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
-            <span class="kt">int</span> <span class="n">first</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
-            <span class="kt">int</span> <span class="n">second</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
-            <span class="kt">boolean</span> <span class="n">swap</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
-            <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">9</span><span class="o">;</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span><span class="o">--){</span>
-                <span class="k">if</span> <span class="o">(</span><span class="n">line</span><span class="o">.</span><span class="na">contains</span><span class="o">(</span><span class="nc">String</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">i</span><span class="o">))){</span>
-                    <span class="c1">// System.out.println("first is " + i);</span>
-                    <span class="c1">// System.out.println("index is " + line.indexOf(String.valueOf(i)));</span>
-                    <span class="n">first</span> <span class="o">=</span> <span class="n">i</span><span class="o">;</span>
-                    <span class="k">if</span> <span class="o">(</span><span class="n">line</span><span class="o">.</span><span class="na">indexOf</span><span class="o">(</span><span class="nc">String</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">i</span><span class="o">))</span> <span class="o">==</span> <span class="n">line</span><span class="o">.</span><span class="na">length</span><span class="o">()-</span><span class="mi">1</span><span class="o">){</span>
-                        <span class="n">swap</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
-                    <span class="o">}</span>
-                    <span class="k">break</span><span class="o">;</span>
-                <span class="o">}</span>
-            <span class="o">}</span>
-            <span class="k">if</span> <span class="o">(</span><span class="n">swap</span><span class="o">){</span>
-                <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">first</span><span class="o">-</span><span class="mi">1</span><span class="o">;</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span><span class="o">--){</span>
-                    <span class="k">if</span> <span class="o">(</span><span class="n">line</span><span class="o">.</span><span class="na">contains</span><span class="o">(</span><span class="nc">String</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">i</span><span class="o">))){</span>
-                        <span class="n">second</span> <span class="o">=</span> <span class="n">first</span><span class="o">;</span>
-                        <span class="n">first</span> <span class="o">=</span> <span class="n">i</span><span class="o">;</span>
-                        <span class="k">break</span><span class="o">;</span>
-                    <span class="o">}</span>
-                <span class="o">}</span>
-            <span class="o">}</span>
-            <span class="k">else</span><span class="o">{</span>
-                <span class="kt">boolean</span> <span class="n">found</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
-                <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">first</span><span class="o">;</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span><span class="o">--){</span>
-                    <span class="k">if</span> <span class="o">(</span><span class="n">found</span><span class="o">)</span> <span class="k">break</span><span class="o">;</span>
-                    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="na">indexOf</span><span class="o">(</span><span class="nc">String</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">first</span><span class="o">))+</span><span class="mi">1</span><span class="o">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">line</span><span class="o">.</span><span class="na">length</span><span class="o">();</span> <span class="n">j</span><span class="o">++){</span>
-                        <span class="c1">// System.out.println("j is " + j);</span>
-                        <span class="c1">// System.out.println((line.charAt(j)-'0'));</span>
-                        <span class="c1">// System.out.println(i);</span>
-                        <span class="k">if</span> <span class="o">(</span><span class="n">i</span> <span class="o">==</span> <span class="o">(</span><span class="n">line</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">j</span><span class="o">)-</span><span class="sc">'0'</span><span class="o">)){</span>
-                            <span class="n">second</span> <span class="o">=</span> <span class="n">i</span><span class="o">;</span>
-                            <span class="n">found</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
-                            <span class="k">break</span><span class="o">;</span>
-                        <span class="o">}</span>
-                    <span class="o">}</span>
-                <span class="o">}</span>
-            <span class="o">}</span>
-
-            <span class="c1">// System.out.println(10*first + second);</span>
-
-            <span class="n">total</span> <span class="o">+=</span> <span class="o">(</span><span class="mi">10</span><span class="o">*</span><span class="n">first</span> <span class="o">+</span> <span class="n">second</span><span class="o">);</span>
-
-
-
-
-        <span class="o">}</span>
-
-        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">total</span><span class="o">);</span>
-
-
-	<span class="o">}</span>
-<span class="o">}</span>
-
-
-</code></pre></div></div>
-
-<p>PART 2:</p>
-
-<p>TIME: 27:06</p>
-
-<p>CODE: (SPOILERS BELOW!!!)</p>
-
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="kn">import</span> <span class="nn">java.io.*</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">java.util.*</span><span class="o">;</span>
-
-<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Main</span> <span class="o">{</span>
-
-    <span class="kd">static</span> <span class="kt">int</span><span class="o">[]</span> <span class="nf">largestintandindex</span><span class="o">(</span><span class="nc">String</span> <span class="n">str</span><span class="o">,</span> <span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">indices</span><span class="o">){</span>
-        <span class="kt">int</span> <span class="n">largest</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="o">;</span>
-        <span class="kt">int</span> <span class="n">largestindex</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
-        <span class="kt">int</span> <span class="n">i</span><span class="o">;</span>
-        <span class="k">if</span> <span class="o">(</span><span class="n">indices</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="o">){</span>
-            <span class="n">i</span> <span class="o">=</span> <span class="n">indices</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">indices</span><span class="o">.</span><span class="na">size</span><span class="o">()-</span><span class="mi">1</span><span class="o">)+</span><span class="mi">1</span><span class="o">;</span>
-        <span class="o">}</span>
-        <span class="k">else</span><span class="o">{</span>
-            <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
-        <span class="o">}</span>
-        <span class="k">while</span> <span class="o">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="n">str</span><span class="o">.</span><span class="na">length</span><span class="o">()){</span>
-            <span class="k">if</span> <span class="o">(</span><span class="n">str</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">)-</span><span class="sc">'0'</span> <span class="o">&gt;</span> <span class="n">largest</span><span class="o">){</span>
-                <span class="k">if</span> <span class="o">(!</span><span class="n">indices</span><span class="o">.</span><span class="na">contains</span><span class="o">(</span><span class="n">i</span><span class="o">)){</span>
-                    <span class="n">largest</span> <span class="o">=</span> <span class="n">str</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">)-</span><span class="sc">'0'</span><span class="o">;</span>
-                    <span class="c1">// System.out.println(largest);</span>
-                    <span class="n">largestindex</span> <span class="o">=</span> <span class="n">i</span><span class="o">;</span>
-                <span class="o">}</span>
-            <span class="o">}</span>
-            <span class="n">i</span><span class="o">++;</span>
-        <span class="o">}</span>
-        <span class="c1">// System.out.println(largestindex);</span>
-
-        <span class="k">return</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[]{</span><span class="n">largest</span><span class="o">,</span> <span class="n">largestindex</span><span class="o">};</span>
-    <span class="o">}</span>
-
-	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="kd">throws</span> <span class="nc">IOException</span> <span class="o">{</span>
-		<span class="nc">BufferedReader</span> <span class="n">r</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">BufferedReader</span><span class="o">(</span><span class="k">new</span> <span class="nc">InputStreamReader</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">in</span><span class="o">));</span>
-		<span class="nc">PrintWriter</span> <span class="n">pw</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">PrintWriter</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">);</span>
-        <span class="nc">String</span> <span class="n">line</span><span class="o">;</span>
-
-        <span class="kt">long</span> <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
-        
-        <span class="k">while</span> <span class="o">((</span><span class="n">line</span> <span class="o">=</span> <span class="n">r</span><span class="o">.</span><span class="na">readLine</span><span class="o">())</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
-            <span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">indices</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;();</span>
-            <span class="kt">long</span> <span class="n">temp</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
-            <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">11</span><span class="o">;</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span><span class="o">--){</span>
-                <span class="c1">// System.out.println(line.substring(0, line.length()-i));</span>
-                <span class="kt">int</span><span class="o">[]</span> <span class="n">arr</span> <span class="o">=</span> <span class="n">largestintandindex</span><span class="o">(</span><span class="n">line</span><span class="o">.</span><span class="na">substring</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="n">line</span><span class="o">.</span><span class="na">length</span><span class="o">()-</span><span class="n">i</span><span class="o">),</span> <span class="n">indices</span><span class="o">);</span>
-                <span class="c1">// System.out.println(temp);</span>
-                <span class="n">temp</span><span class="o">+=</span><span class="n">arr</span><span class="o">[</span><span class="mi">0</span><span class="o">]*</span><span class="nc">Math</span><span class="o">.</span><span class="na">pow</span><span class="o">(</span><span class="mi">10</span><span class="o">,</span> <span class="n">i</span><span class="o">);</span>
-                <span class="n">indices</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">arr</span><span class="o">[</span><span class="mi">1</span><span class="o">]);</span>
-            <span class="o">}</span>
-
-            <span class="c1">// System.out.println(temp);</span>
-            <span class="n">total</span><span class="o">+=</span><span class="n">temp</span><span class="o">;</span>
-
-
-
-
-        <span class="o">}</span>
-        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">total</span><span class="o">);</span>
-
-
-	<span class="o">}</span>
-<span class="o">}</span>
-
-
-</code></pre></div></div>
-<h1 id="-day-4-printing-department-">— Day 4: Printing Department —</h1>
-
-<p>PART 1:</p>
-
-<p>TIME: 16:51</p>
-
-<p>I wanted to get familiar with C++, too, as I ought to learn it for ICPC/competitive programming. Thus, today’s code was written in C++.</p>
-
-<p>CODE: (SPOILERS BELOW!!!)</p>
-
-<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
-</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
-
-<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-
-    <span class="n">vector</span><span class="o">&lt;</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">&gt;&gt;</span> <span class="n">grid</span><span class="p">;</span> 
-    
-
-	<span class="n">string</span> <span class="n">row</span><span class="p">;</span>
-    <span class="k">while</span> <span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">row</span><span class="p">)</span> <span class="p">{</span> 
-        <span class="c1">// cout &lt;&lt; row &lt;&lt; endl;</span>
-
-        <span class="n">grid</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">&gt;</span><span class="p">(</span><span class="n">row</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">row</span><span class="p">.</span><span class="n">end</span><span class="p">()));</span>
-    <span class="p">}</span>
-
-    <span class="kt">int</span> <span class="n">result</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-
-    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">grid</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="n">i</span><span class="o">++</span><span class="p">){</span>
-        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">grid</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">size</span><span class="p">();</span> <span class="n">j</span><span class="o">++</span><span class="p">){</span>
-            <span class="kt">int</span> <span class="n">nearby</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'.'</span><span class="p">)</span> <span class="k">continue</span><span class="p">;</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">i</span><span class="o">!=</span><span class="mi">0</span><span class="p">){</span>
-                <span class="k">if</span> <span class="p">(</span><span class="n">j</span><span class="o">!=</span><span class="mi">0</span><span class="p">){</span>
-                    <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-                <span class="p">}</span>
-                <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-                <span class="k">if</span> <span class="p">(</span><span class="n">j</span><span class="o">!=</span><span class="n">grid</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">size</span><span class="p">()</span><span class="o">-</span><span class="mi">1</span><span class="p">){</span>
-                    <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-                <span class="p">}</span>
-            <span class="p">}</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">i</span><span class="o">!=</span><span class="n">grid</span><span class="p">.</span><span class="n">size</span><span class="p">()</span><span class="o">-</span><span class="mi">1</span><span class="p">){</span>
-                <span class="k">if</span> <span class="p">(</span><span class="n">j</span><span class="o">!=</span><span class="mi">0</span><span class="p">){</span>
-                    <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-                <span class="p">}</span>
-                <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-                <span class="k">if</span> <span class="p">(</span><span class="n">j</span><span class="o">!=</span><span class="n">grid</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">size</span><span class="p">()</span><span class="o">-</span><span class="mi">1</span><span class="p">){</span>
-                    <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-                <span class="p">}</span>
-            <span class="p">}</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">j</span><span class="o">!=</span><span class="mi">0</span><span class="p">){</span>
-                <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-            <span class="p">}</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">j</span><span class="o">!=</span><span class="n">grid</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">size</span><span class="p">()</span><span class="o">-</span><span class="mi">1</span><span class="p">){</span>
-                <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-            <span class="p">}</span>
-
-            <span class="k">if</span> <span class="p">(</span><span class="n">nearby</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">){</span>
-                <span class="n">result</span><span class="o">++</span><span class="p">;</span>
-            <span class="p">}</span>
-
-        <span class="p">}</span>
-    <span class="p">}</span>
-
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">result</span><span class="p">;</span>
-<span class="p">}</span>
-
-</code></pre></div></div>
-
-<p>PART 2:</p>
-
-<p>TIME: 1:37</p>
-
-<p>This is so fun, it was almost a little sad that part 2 only took a few seconds to do.</p>
-
-<p>CODE: (SPOILERS BELOW!!!)</p>
-
-<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
-</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
-
-<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-
-    <span class="n">vector</span><span class="o">&lt;</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">&gt;&gt;</span> <span class="n">grid</span><span class="p">;</span> 
-    
-
-	<span class="n">string</span> <span class="n">row</span><span class="p">;</span>
-    <span class="k">while</span> <span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">row</span><span class="p">)</span> <span class="p">{</span> 
-        <span class="c1">// cout &lt;&lt; row &lt;&lt; endl;</span>
-
-        <span class="n">grid</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">&gt;</span><span class="p">(</span><span class="n">row</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">row</span><span class="p">.</span><span class="n">end</span><span class="p">()));</span>
-    <span class="p">}</span>
-
-    <span class="kt">int</span> <span class="n">result</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-    <span class="n">vector</span><span class="o">&lt;</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">&gt;&gt;</span> <span class="n">oldgrid</span><span class="p">;</span> 
-
-    <span class="k">while</span> <span class="p">(</span><span class="n">oldgrid</span> <span class="o">!=</span> <span class="n">grid</span><span class="p">){</span>
-        <span class="n">oldgrid</span> <span class="o">=</span> <span class="n">grid</span><span class="p">;</span>
-        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">grid</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="n">i</span><span class="o">++</span><span class="p">){</span>
-            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">grid</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">size</span><span class="p">();</span> <span class="n">j</span><span class="o">++</span><span class="p">){</span>
-                <span class="kt">int</span> <span class="n">nearby</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-                <span class="k">if</span> <span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'.'</span><span class="p">)</span> <span class="k">continue</span><span class="p">;</span>
-                <span class="k">if</span> <span class="p">(</span><span class="n">i</span><span class="o">!=</span><span class="mi">0</span><span class="p">){</span>
-                    <span class="k">if</span> <span class="p">(</span><span class="n">j</span><span class="o">!=</span><span class="mi">0</span><span class="p">){</span>
-                        <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-                    <span class="p">}</span>
-                    <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-                    <span class="k">if</span> <span class="p">(</span><span class="n">j</span><span class="o">!=</span><span class="n">grid</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">size</span><span class="p">()</span><span class="o">-</span><span class="mi">1</span><span class="p">){</span>
-                        <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-                    <span class="p">}</span>
-                <span class="p">}</span>
-                <span class="k">if</span> <span class="p">(</span><span class="n">i</span><span class="o">!=</span><span class="n">grid</span><span class="p">.</span><span class="n">size</span><span class="p">()</span><span class="o">-</span><span class="mi">1</span><span class="p">){</span>
-                    <span class="k">if</span> <span class="p">(</span><span class="n">j</span><span class="o">!=</span><span class="mi">0</span><span class="p">){</span>
-                        <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-                    <span class="p">}</span>
-                    <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-                    <span class="k">if</span> <span class="p">(</span><span class="n">j</span><span class="o">!=</span><span class="n">grid</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">size</span><span class="p">()</span><span class="o">-</span><span class="mi">1</span><span class="p">){</span>
-                        <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-                    <span class="p">}</span>
-                <span class="p">}</span>
-                <span class="k">if</span> <span class="p">(</span><span class="n">j</span><span class="o">!=</span><span class="mi">0</span><span class="p">){</span>
-                    <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-                <span class="p">}</span>
-                <span class="k">if</span> <span class="p">(</span><span class="n">j</span><span class="o">!=</span><span class="n">grid</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">size</span><span class="p">()</span><span class="o">-</span><span class="mi">1</span><span class="p">){</span>
-                    <span class="k">if</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'@'</span><span class="p">)</span> <span class="n">nearby</span><span class="o">++</span><span class="p">;</span>
-                <span class="p">}</span>
-
-                <span class="k">if</span> <span class="p">(</span><span class="n">nearby</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">){</span>
-                    <span class="n">result</span><span class="o">++</span><span class="p">;</span>
-                    <span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span><span class="o">=</span><span class="sc">'.'</span><span class="p">;</span>
-                <span class="p">}</span>
-
-            <span class="p">}</span>
-        <span class="p">}</span>
-
-    <span class="p">}</span>
-
-    
-
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">result</span><span class="p">;</span>
-<span class="p">}</span>
-
-</code></pre></div></div>
-
-<h1 id="-day-5-cafeteria-">— Day 5: Cafeteria —</h1>
-
-<p>PART 1:</p>
-
-<p>TIME: 17:23</p>
-
-<p>CODE: (SPOILERS BELOW!!!)</p>
-
-<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
-</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
-
-<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="n">string</span> <span class="n">a</span><span class="p">;</span>
-    <span class="n">vector</span><span class="o">&lt;</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">long</span> <span class="kt">long</span><span class="p">,</span> <span class="kt">long</span> <span class="kt">long</span><span class="o">&gt;&gt;</span> <span class="n">ids</span><span class="p">;</span>
-    <span class="k">while</span> <span class="p">(</span><span class="nb">true</span><span class="p">)</span> <span class="p">{</span>
-        <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">a</span><span class="p">);</span> 
-
-        <span class="k">if</span> <span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">empty</span><span class="p">())</span> <span class="p">{</span> 
-            <span class="k">break</span><span class="p">;</span> 
-        <span class="p">}</span>
-
-
-        <span class="n">ids</span><span class="p">.</span><span class="n">push_back</span><span class="p">({</span><span class="n">stoll</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">substr</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">a</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="sc">'-'</span><span class="p">))),</span> <span class="n">stoll</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">substr</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="sc">'-'</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))});</span>
-    <span class="p">}</span>
-
-    <span class="kt">long</span> <span class="kt">long</span> <span class="n">b</span><span class="p">;</span>
-    <span class="kt">long</span> <span class="kt">long</span> <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-
-    <span class="k">while</span><span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">b</span><span class="p">){</span>
-        <span class="k">for</span> <span class="p">(</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">long</span> <span class="kt">long</span><span class="p">,</span> <span class="kt">long</span> <span class="kt">long</span><span class="o">&gt;</span> <span class="n">p</span> <span class="o">:</span> <span class="n">ids</span><span class="p">){</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">b</span> <span class="o">&lt;=</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span> <span class="o">&amp;&amp;</span> <span class="n">b</span> <span class="o">&gt;=</span> <span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">){</span>
-                <span class="n">count</span><span class="o">++</span><span class="p">;</span>
-                <span class="k">break</span><span class="p">;</span>
-            <span class="p">}</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">count</span><span class="p">;</span>
-
-<span class="p">}</span>
-
-</code></pre></div></div>
-
-<p>PART 2:</p>
-
-<p>TIME: 9:24</p>
-
-<p>Started timer a litte late by accident, time might not be accurate.</p>
-
-<p>CODE: (SPOILERS BELOW!!!)</p>
-
-<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
-</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
-
-<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="n">string</span> <span class="n">a</span><span class="p">;</span>
-    <span class="n">vector</span><span class="o">&lt;</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">long</span> <span class="kt">long</span><span class="p">,</span> <span class="kt">long</span> <span class="kt">long</span><span class="o">&gt;&gt;</span> <span class="n">ids</span><span class="p">;</span>
-    <span class="k">while</span> <span class="p">(</span><span class="nb">true</span><span class="p">)</span> <span class="p">{</span>
-        <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">a</span><span class="p">);</span> 
-
-        <span class="k">if</span> <span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">empty</span><span class="p">())</span> <span class="p">{</span> 
-            <span class="k">break</span><span class="p">;</span> 
-        <span class="p">}</span>
-
-        <span class="n">pair</span><span class="o">&lt;</span><span class="kt">long</span> <span class="kt">long</span><span class="p">,</span> <span class="kt">long</span> <span class="kt">long</span><span class="o">&gt;</span> <span class="n">np</span> <span class="o">=</span> <span class="p">{</span><span class="n">stoll</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">substr</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">a</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="sc">'-'</span><span class="p">))),</span> <span class="n">stoll</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">substr</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="sc">'-'</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))};</span>
-        <span class="kt">bool</span> <span class="n">newelement</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
-        <span class="k">for</span> <span class="p">(</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">long</span> <span class="kt">long</span><span class="p">,</span> <span class="kt">long</span> <span class="kt">long</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">p</span> <span class="o">:</span> <span class="n">ids</span><span class="p">){</span>
-            <span class="c1">//any overlaps?</span>
-            <span class="c1">//case 1: p1 &lt; np1 &lt; p2 &lt; np2</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;=</span> <span class="n">np</span><span class="p">.</span><span class="n">first</span> <span class="o">&amp;&amp;</span> <span class="n">np</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;=</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span> <span class="o">&amp;&amp;</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span> <span class="o">&lt;=</span> <span class="n">np</span><span class="p">.</span><span class="n">second</span><span class="p">){</span>
-                <span class="n">p</span> <span class="o">=</span> <span class="p">{</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">,</span> <span class="n">np</span><span class="p">.</span><span class="n">second</span><span class="p">};</span>
-                <span class="n">newelement</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span>
-            <span class="p">}</span>
-            <span class="c1">//case 2: p1 &lt; np1 &lt; np2 &lt; p2</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;=</span> <span class="n">np</span><span class="p">.</span><span class="n">first</span> <span class="o">&amp;&amp;</span> <span class="n">np</span><span class="p">.</span><span class="n">second</span> <span class="o">&lt;=</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">){</span>
-                <span class="n">newelement</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span>
-                <span class="k">continue</span><span class="p">;</span>
-            <span class="p">}</span>
-            <span class="c1">//case 3: np1 &lt; p1 &lt; np2 &lt; p2</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;=</span> <span class="n">p</span><span class="p">.</span><span class="n">first</span> <span class="o">&amp;&amp;</span> <span class="n">p</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;=</span> <span class="n">np</span><span class="p">.</span><span class="n">second</span> <span class="o">&amp;&amp;</span> <span class="n">np</span><span class="p">.</span><span class="n">second</span> <span class="o">&lt;=</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">){</span>
-                <span class="n">newelement</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span>
-                <span class="n">p</span> <span class="o">=</span> <span class="p">{</span><span class="n">np</span><span class="p">.</span><span class="n">first</span><span class="p">,</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">};</span>
-            <span class="p">}</span>
-            <span class="c1">//case 4: np1 &lt; p1 &lt; p2 &lt; np2</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;=</span> <span class="n">p</span><span class="p">.</span><span class="n">first</span> <span class="o">&amp;&amp;</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span> <span class="o">&lt;=</span> <span class="n">np</span><span class="p">.</span><span class="n">second</span><span class="p">){</span>
-                <span class="n">newelement</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span>
-                <span class="n">p</span> <span class="o">=</span> <span class="p">{</span><span class="n">np</span><span class="p">.</span><span class="n">first</span><span class="p">,</span> <span class="n">np</span><span class="p">.</span><span class="n">second</span><span class="p">};</span>
-            <span class="p">}</span>
-        <span class="p">}</span>
-
-        <span class="k">if</span><span class="p">(</span><span class="n">newelement</span><span class="p">)</span> <span class="n">ids</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">np</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="n">vector</span><span class="o">&lt;</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">long</span> <span class="kt">long</span><span class="p">,</span> <span class="kt">long</span> <span class="kt">long</span><span class="o">&gt;&gt;</span> <span class="n">oldids</span><span class="p">;</span>
-    <span class="k">while</span><span class="p">(</span><span class="n">oldids</span> <span class="o">!=</span> <span class="n">ids</span><span class="p">){</span>
-        <span class="n">oldids</span> <span class="o">=</span> <span class="n">ids</span><span class="p">;</span>
-        <span class="n">ids</span> <span class="o">=</span> <span class="p">{};</span>
-        <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="n">np</span> <span class="o">:</span> <span class="n">oldids</span><span class="p">){</span>
-            <span class="kt">bool</span> <span class="n">newelement</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
-            <span class="k">for</span> <span class="p">(</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">long</span> <span class="kt">long</span><span class="p">,</span> <span class="kt">long</span> <span class="kt">long</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">p</span> <span class="o">:</span> <span class="n">ids</span><span class="p">){</span>
-            <span class="c1">//any overlaps?</span>
-            <span class="c1">//case 1: p1 &lt; np1 &lt; p2 &lt; np2</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;=</span> <span class="n">np</span><span class="p">.</span><span class="n">first</span> <span class="o">&amp;&amp;</span> <span class="n">np</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;=</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span> <span class="o">&amp;&amp;</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span> <span class="o">&lt;=</span> <span class="n">np</span><span class="p">.</span><span class="n">second</span><span class="p">){</span>
-                <span class="n">p</span> <span class="o">=</span> <span class="p">{</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">,</span> <span class="n">np</span><span class="p">.</span><span class="n">second</span><span class="p">};</span>
-                <span class="n">newelement</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span>
-            <span class="p">}</span>
-            <span class="c1">//case 2: p1 &lt; np1 &lt; np2 &lt; p2</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;=</span> <span class="n">np</span><span class="p">.</span><span class="n">first</span> <span class="o">&amp;&amp;</span> <span class="n">np</span><span class="p">.</span><span class="n">second</span> <span class="o">&lt;=</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">){</span>
-                <span class="n">newelement</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span>
-                <span class="k">continue</span><span class="p">;</span>
-            <span class="p">}</span>
-            <span class="c1">//case 3: np1 &lt; p1 &lt; np2 &lt; p2</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;=</span> <span class="n">p</span><span class="p">.</span><span class="n">first</span> <span class="o">&amp;&amp;</span> <span class="n">p</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;=</span> <span class="n">np</span><span class="p">.</span><span class="n">second</span> <span class="o">&amp;&amp;</span> <span class="n">np</span><span class="p">.</span><span class="n">second</span> <span class="o">&lt;=</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">){</span>
-                <span class="n">newelement</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span>
-                <span class="n">p</span> <span class="o">=</span> <span class="p">{</span><span class="n">np</span><span class="p">.</span><span class="n">first</span><span class="p">,</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">};</span>
-            <span class="p">}</span>
-            <span class="c1">//case 4: np1 &lt; p1 &lt; p2 &lt; np2</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;=</span> <span class="n">p</span><span class="p">.</span><span class="n">first</span> <span class="o">&amp;&amp;</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span> <span class="o">&lt;=</span> <span class="n">np</span><span class="p">.</span><span class="n">second</span><span class="p">){</span>
-                <span class="n">newelement</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span>
-                <span class="n">p</span> <span class="o">=</span> <span class="p">{</span><span class="n">np</span><span class="p">.</span><span class="n">first</span><span class="p">,</span> <span class="n">np</span><span class="p">.</span><span class="n">second</span><span class="p">};</span>
-            <span class="p">}</span>
-        <span class="p">}</span>
-        <span class="k">if</span><span class="p">(</span><span class="n">newelement</span><span class="p">)</span> <span class="n">ids</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">np</span><span class="p">);</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-
-    <span class="kt">long</span> <span class="kt">long</span> <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-
-    <span class="k">for</span> <span class="p">(</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">long</span> <span class="kt">long</span><span class="p">,</span> <span class="kt">long</span> <span class="kt">long</span><span class="o">&gt;</span> <span class="n">p</span> <span class="o">:</span> <span class="n">ids</span><span class="p">){</span>
-            <span class="n">total</span><span class="o">+=</span><span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="o">-</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">total</span><span class="p">;</span>
-
-<span class="p">}</span>
-
-</code></pre></div></div>
-
-<h1 id="-day-6-trash-compactor-">— Day 6: Trash Compactor —</h1>
-
-<p>PART 1:</p>
-
-<p>TIME: 23:06</p>
-
-<p>We’re continuing with the C++ practice! I’m beginning to miss Python a little though, input parsing is a lot easier there.</p>
-
-<p>CODE: (SPOILERS BELOW!!!)</p>
-
-<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
-</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
-<span class="cp">#define ll long long
-</span>
-<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-    <span class="n">vector</span><span class="o">&lt;</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">ll</span><span class="o">&gt;&gt;</span> <span class="n">nums</span><span class="p">;</span>
-    <span class="n">vector</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">&gt;</span> <span class="n">ops</span><span class="p">;</span>
-    <span class="n">string</span> <span class="n">row</span><span class="p">;</span>
-    <span class="k">while</span> <span class="p">(</span><span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">row</span><span class="p">))</span> <span class="p">{</span> 
-        <span class="n">stringstream</span> <span class="n">ss</span><span class="p">(</span><span class="n">row</span><span class="p">);</span>
-        <span class="n">stringstream</span> <span class="n">ss1</span><span class="p">(</span><span class="n">row</span><span class="p">);</span>
-        <span class="n">vector</span><span class="o">&lt;</span><span class="n">ll</span><span class="o">&gt;</span> <span class="n">r</span> <span class="o">=</span> <span class="p">{};</span>
-        <span class="n">ll</span> <span class="n">num</span><span class="p">;</span>
-        <span class="k">while</span> <span class="p">(</span><span class="n">ss</span> <span class="o">&gt;&gt;</span> <span class="n">num</span><span class="p">){</span>
-            <span class="n">r</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">num</span><span class="p">);</span>
-        <span class="p">}</span>
-
-        <span class="k">if</span> <span class="p">(</span><span class="n">r</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">){</span>
-            <span class="kt">char</span> <span class="n">ch</span><span class="p">;</span>
-            <span class="k">while</span> <span class="p">(</span><span class="n">ss1</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">ch</span><span class="p">))</span> <span class="p">{</span>
-                <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">isspace</span><span class="p">(</span><span class="n">ch</span><span class="p">))</span> <span class="p">{</span> 
-                    <span class="n">ops</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">ch</span><span class="p">);</span>
-                <span class="p">}</span>
-            <span class="p">}</span>
-        <span class="p">}</span>
-        <span class="k">else</span> <span class="n">nums</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">r</span><span class="p">);</span>
-    <span class="p">}</span>
-
-
-    <span class="n">ll</span> <span class="n">sol</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-
-    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">nums</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">size</span><span class="p">();</span> <span class="n">i</span><span class="o">++</span><span class="p">){</span>
-        <span class="n">ll</span> <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-            <span class="k">if</span><span class="p">(</span><span class="n">ops</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'*'</span><span class="p">){</span>
-                    <span class="n">total</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-                    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">nums</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="n">j</span><span class="o">++</span><span class="p">){</span>
-                        <span class="n">total</span><span class="o">*=</span><span class="n">nums</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="n">i</span><span class="p">];</span>
-                        <span class="c1">//cout &lt;&lt; nums[j][i] &lt;&lt; endl &lt;&lt; total &lt;&lt; endl;</span>
-                    <span class="p">}</span>
-                    
-                <span class="p">}</span>
-            <span class="k">else</span><span class="p">{</span>
-                <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">nums</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="n">j</span><span class="o">++</span><span class="p">){</span>
-                    <span class="n">total</span><span class="o">+=</span><span class="n">nums</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="n">i</span><span class="p">];</span>
-                    <span class="c1">//cout &lt;&lt; nums[j][i] &lt;&lt; endl &lt;&lt; total &lt;&lt; endl;</span>
-                <span class="p">}</span>
-            <span class="p">}</span>
-        <span class="n">sol</span><span class="o">+=</span><span class="n">total</span><span class="p">;</span>    
-    <span class="p">}</span>
-
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">sol</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>PART 2:</p>
-
-<p>TIME: 27:52</p>
-
-<p>CODE: (SPOILERS BELOW!!!)</p>
-
-<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-</code></pre></div></div>
-
-<!-- # --- Day X: Y ---
-
-PART 1:
-
-TIME: 
-
-CODE: (SPOILERS BELOW!!!)
-
-```c++
-
-```
-
-PART 2:
-
-TIME: 
-
-CODE: (SPOILERS BELOW!!!)
-
-```c++
-
-``` -->]]></content><author><name>stephanie</name></author><summary type="html"><![CDATA[Today is the first day of December, so you know what that means… Advent of Code!]]></summary></entry><entry><title type="html">Hack the north</title><link href="http://localhost:4000/2024/09/17/Hack-the-North.html" rel="alternate" type="text/html" title="Hack the north" /><published>2024-09-17T00:00:00-04:00</published><updated>2024-09-17T00:00:00-04:00</updated><id>http://localhost:4000/2024/09/17/Hack%20the%20North</id><content type="html" xml:base="http://localhost:4000/2024/09/17/Hack-the-North.html"><![CDATA[<p>Hack the North was this weekend!</p>
+<p><img src="/assets/images/art/basic_painting/task11InteractionofColor.png" alt="Interaction of Color" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task11-findthreecolorsthatgivetheillusionoftransparency.png" alt="Three Colors That Give the Illusion of Transparency" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task11alltransparency.png" alt="All Transparency" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task11colorvibration.png" alt="Color Vibration" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task11-2colorsblendtogether.png" alt="2 Colors Blend Together" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task11-objectsred.png" alt="Objects Red" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task11-orangeyellowgreen.png" alt="Orange Yellow Green" style="max-width: 500px; width: 100%;" />
+<img src="/assets/images/art/basic_painting/task11-blueindigoviolet.png" alt="Blue Indigo Violet" style="max-width: 500px; width: 100%;" /></p>]]></content><author><name>stephanie</name></author><summary type="html"><![CDATA[Some of my favorite pieces from my Basic Painting class.]]></summary></entry><entry><title type="html">Hack the north</title><link href="http://localhost:4000/2024/09/17/Hack-the-North.html" rel="alternate" type="text/html" title="Hack the north" /><published>2024-09-17T00:00:00-04:00</published><updated>2024-09-17T00:00:00-04:00</updated><id>http://localhost:4000/2024/09/17/Hack%20the%20North</id><content type="html" xml:base="http://localhost:4000/2024/09/17/Hack-the-North.html"><![CDATA[<p>Hack the North was this weekend!</p>
 
 <p><img src="../../../assets/images/projects/htn/subtitlesforhumans.jpg" width="600" /></p>
 

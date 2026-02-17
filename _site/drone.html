@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mind-Controlled Drone</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/icon.png">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Mind-Controlled Drone</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Mind-Controlled Drone" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/drone.html" />
+<meta property="og:url" content="http://localhost:4000/drone.html" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Mind-Controlled Drone" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Mind-Controlled Drone","url":"http://localhost:4000/drone.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <script src="https://unpkg.com/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script src="script.js"></script>
+    <script src="/assets/js/view-counter.js"></script>
+  </head>
+  <body>
+    <nav>
+  <ul>
+    
+    <li><a href="/" >home</a></li>
+    
+    <li><a href="/projects.html" >projects</a></li>
+    
+    <li><a href="/art.html" >art</a></li>
+    
+    <li><a href="/research.html" >research</a></li>
+    
+    <li><a href="/blog.html" >blog</a></li>
+    
+  </ul>
+
+</nav>
+    <section id="gallery">
+    <div class="gallery-item" onclick="openModal(this)">
+        <img src="assets/images/droneimages/braincollect.png" alt="Brain Data Collection" class="gallery-image">
+        <div class="gallery-item-text">Brain data collection setup for the mind-controlled drone.</div>
+    </div>
+
+    <div class="gallery-item" onclick="openModal(this)">
+        <img src="assets/images/droneimages/braincollect2.png" alt="Brain Data Collection 2" class="gallery-image">
+        <div class="gallery-item-text">Brain data collection (continued).</div>
+    </div>
+
+    <div class="gallery-item" onclick="openModal(this)">
+        <img src="assets/images/droneimages/components.png" alt="Drone Components" class="gallery-image">
+        <div class="gallery-item-text">Components used in the mind-controlled drone build.</div>
+    </div>
+
+    <div class="gallery-item" onclick="openModal(this)">
+        <img src="assets/images/droneimages/gadget.png" alt="Gadget" class="gallery-image">
+        <div class="gallery-item-text">The mind-controlled drone gadget.</div>
+    </div>
+
+    <div class="gallery-item">
+        <video src="assets/images/droneimages/droneflight.mov" controls class="gallery-image" style="object-fit: cover;"></video>
+        <div class="gallery-item-text">Drone flight footage.</div>
+    </div>
+
+    <div class="gallery-item">
+        <video src="assets/images/droneimages/flight.MP4" controls class="gallery-image" style="object-fit: cover;"></video>
+        <div class="gallery-item-text">Drone flight video.</div>
+    </div>
+</section>
+
+<!-- Modal for image viewer -->
+<div id="modal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <div id="caption"></div>
+</div>
+
+<script>
+    function openModal(element) {
+        const modal = document.getElementById('modal');
+        const modalImg = document.getElementById('modalImage');
+        const captionText = document.getElementById('caption');
+
+        modal.style.display = "block";
+        modalImg.src = element.querySelector('.gallery-image').src;
+        captionText.innerHTML = element.querySelector('.gallery-item-text').textContent;
+    }
+
+    function closeModal() {
+        document.getElementById('modal').style.display = "none";
+    }
+</script>
+
+    <footer style="text-align: center; margin-top: 2rem; padding: 1rem; border-top: 1px solid #eee; font-size: 0.9rem; color: #666;">
+      Page views: <span id="view-counter">0</span> | Total site views: <span id="total-views">0</span>
+    </footer>
+  </body>
+</html>
