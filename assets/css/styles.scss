@@ -23,6 +23,88 @@ body {
   border-radius: 40%;
 }
 
+/* Full-page photo hidden under cream; face stays revealed, cursor reveals the rest */
+.pfp-reveal {
+  position: fixed;
+  inset: 70px 0 0 0;      /* start below the fixed header so it isn't hidden */
+  z-index: -1;            /* behind all page content */
+  overflow: hidden;
+  pointer-events: none;
+  background-color: #eeeee4;  /* cream behind the photo, incl. the side bars */
+  /* --- tunable --- */
+  --face-x: 51%;         /* horizontal centre of the always-visible face hole */
+  --face-y: calc(27vh - 50px);  /* vertical centre of the face hole (nudged up) */
+  --face-r: 110px;       /* radius of the face hole */
+  --spot-x: -1000px;     /* cursor hole, off-screen until the mouse moves */
+  --spot-y: -1000px;
+  --spot-r: 95px;        /* radius of the cursor hole */
+}
+
+.pfp-reveal img {
+  position: absolute;
+  top: -50px;            /* nudge the painting up to match the raised face hole */
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100vh;         /* full photo, no cropping */
+  width: auto;
+  max-width: none;       /* override #intro img { max-width: 200px } */
+  border-radius: 0;
+  z-index: 1;            /* sharp painting sits above its blurred bleed copy */
+  /* feather the sharp painting's edges so it melts into the blurred copy
+     below (no hard sharp->blur seam) */
+  -webkit-mask:
+    linear-gradient(to right, transparent, #000 15%, #000 85%, transparent),
+    linear-gradient(to bottom, transparent, #000 12%, #000 88%, transparent);
+  -webkit-mask-composite: source-in;
+  mask:
+    linear-gradient(to right, transparent, #000 15%, #000 85%, transparent),
+    linear-gradient(to bottom, transparent, #000 12%, #000 88%, transparent);
+  mask-composite: intersect;
+}
+
+/* Blurred, slightly enlarged copy of the painting BEHIND the sharp one, so the
+   painting's colours bleed OUT past its hard canvas edges into the cream. */
+.pfp-reveal::before {
+  content: "";
+  position: absolute;
+  top: -90px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: calc(100vh + 80px);
+  aspect-ratio: 1692 / 2000;   /* match the painting's proportions */
+  background: url('/assets/images/sw_pfp.jpg?v=3') center / cover no-repeat;
+  filter: blur(30px);
+  opacity: 1;
+}
+
+.pfp-cover {
+  position: absolute;
+  inset: 0;
+  z-index: 2;                  /* cream cover sits above the painting + bleed */
+  background-color: #eeeee4;   /* matches page background — the "cream" */
+  /* Two circular holes (face + cursor). intersect => cover shows everywhere
+     EXCEPT inside either circle, so both holes reveal the photo beneath. */
+  -webkit-mask:
+    radial-gradient(circle var(--spot-r) at var(--spot-x) var(--spot-y), transparent calc(var(--spot-r) - 1px), #000 var(--spot-r)),
+    radial-gradient(circle var(--face-r) at var(--face-x) var(--face-y), transparent calc(var(--face-r) - 1px), #000 var(--face-r));
+  -webkit-mask-composite: source-in;
+  mask:
+    radial-gradient(circle var(--spot-r) at var(--spot-x) var(--spot-y), transparent calc(var(--spot-r) - 1px), #000 var(--spot-r)),
+    radial-gradient(circle var(--face-r) at var(--face-x) var(--face-y), transparent calc(var(--face-r) - 1px), #000 var(--face-r));
+  mask-composite: intersect;
+}
+
+/* push the welcome text just below the revealed face */
+#intro {
+  padding-top: 35vh;
+}
+
+/* On the homepage the cream cover IS the background, so let the photo show
+   through instead of the body painting cream on top of it. */
+body:has(#pfp-reveal) {
+  background-color: transparent;
+}
+
 nav {
   background: black;
   color: white;
@@ -282,4 +364,3 @@ a:hover{
   font-size: 0.9em;
   color: #444;
 }
-
