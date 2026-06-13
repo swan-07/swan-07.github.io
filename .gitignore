@@ -1,2 +1,13 @@
 Gemfile.lock
 todo.txt
+
+# Jekyll build output — GitHub Pages rebuilds this from source, so it should
+# never be committed (it was duplicating every asset, including videos).
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# OS / editor cruft
+.DS_Store
+**/.DS_Store
