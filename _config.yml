@@ -1,6 +1,20 @@
+title: Stephanie Wan
+tagline: CS & Math at Yale
+description: >-
+  Stephanie Wan is a computer science and mathematics student at Yale University
+  interested in AI research, interpretability, cybersecurity, and art. Previously
+  at Two Sigma, Ramp Labs, and Draper Laboratory.
+url: "https://swan-07.github.io"
+lang: en
+author:
+  name: Stephanie Wan
+social:
+  name: Stephanie Wan
+  links:
+    - https://github.com/swan-07
+    - https://www.linkedin.com/in/stephaniewan07/
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 include: [".well-known"]
-
