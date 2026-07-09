@@ -33,31 +33,31 @@ The next day we picked up our hardware and were told that there were no micropho
 
 By lunchtime we had the hardware assembled and the pygame display working.
 
-<img src="../../../assets/images/projects/htn/screentest.png" width="500">
+<img src="../../../assets/images/projects/htn/screentest.webp" width="500">
 
 Assembling the hardware and reading the documentation was really helpful for learning how electronics/everything worked. My soldering abilities I was developing came in handy when we needed to de- and re-solder parts of the microphone to make it less bulky.
 
-<img src="../../../assets/images/projects/htn/mic.png" width="400">
+<img src="../../../assets/images/projects/htn/mic.webp" width="400">
 
-<img src="../../../assets/images/projects/htn/solderingmic.png" width="400">
+<img src="../../../assets/images/projects/htn/solderingmic.webp" width="400">
 
 By dinner, we got the transcription working, so we went out to get boba to celebrate. I had a blueberry boba, which was delicious.
 
-<img src="../../../assets/images/projects/htn/boba.png" width="400"> 
+<img src="../../../assets/images/projects/htn/boba.webp" width="400"> 
 
 We 3D printed a case for the screen adn the raspberry pi 5 that powered it, which was really helpful because the rp5 went up to 98 C sometimes and this was supposed to be wearable.
 
-<img src="../../../assets/images/projects/htn/partswithcase.png" width="500">
+<img src="../../../assets/images/projects/htn/partswithcase.webp" width="500">
 
 We found a large sweater and spray painted it completely black (my first time spray painting!).
 
-<img src="../../../assets/images/projects/htn/outfit1.png" width="500">
+<img src="../../../assets/images/projects/htn/outfit1.webp" width="500">
 
 We then sewed it all together and made a devpost for submission. We submitted 2 minutes before the deadline, but we made it! We celebrated by taking 1-hour naps before we had to prepare for the presentation. We made a script and practiced our presentation, then it was time and we went, and then the hackathon was nearly over.
 
-<img src="../../../assets/images/projects/htn/outfit2.png" width="500">
+<img src="../../../assets/images/projects/htn/outfit2.webp" width="500">
 
-<img src="../../../assets/images/projects/htn/me.png" width="400"> 
+<img src="../../../assets/images/projects/htn/me.webp" width="400"> 
 
 My earlier prediction was right: I only got 1 hour of sleep over the night. There were so many sponsors at the event that gave out swag (and there was so much swag also!) as well as delicious snacks like soup, chocolate, kinder eggs, and chips available. The event was super fun overall.
 
