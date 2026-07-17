@@ -125,7 +125,7 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0;
+  margin: 16px 0; /* match the UA default the old layout relied on for header height */
   padding: 0;
 }
 
