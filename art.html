@@ -516,7 +516,7 @@ title: Art
         function setPosition(clientX) {
             const rect = compare.getBoundingClientRect();
             const pct = Math.max(0, Math.min(100, (clientX - rect.left) / rect.width * 100));
-            top.style.width = pct + '%';
+            top.style.clipPath = 'inset(0 ' + (100 - pct) + '% 0 0)';
             handle.style.left = pct + '%';
         }
 
