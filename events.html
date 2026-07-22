@@ -6,36 +6,42 @@ title: Events
 <section id="events">
   <div class="events-intro">
     <h1>events</h1>
-    <p>things i've hosted :)</p>
   </div>
 
   {% assign events = site.data.events | sort: 'date' | reverse %}
   <div class="event-grid">
     {% for event in events %}
-    <article class="event-card">
-      {% if event.image %}
+    <article class="event-card{% if event.upcoming %} event-upcoming{% endif %}">
+      {% if event.image or event.cover %}
       <div class="event-cover">
-        <img src="{{ event.image }}" alt="{{ event.title }}" loading="lazy">
-        <span class="event-date">{{ event.displaydate }}</span>
+        <img src="{{ event.cover | default: event.image }}" alt="{{ event.title }}" loading="lazy">
+        {% if event.upcoming %}<span class="event-flag">upcoming</span>{% endif %}
+        <span class="event-date">{{ event.displaydate }}{% if event.time %} · {{ event.time }}{% endif %}</span>
       </div>
       {% endif %}
 
       <div class="event-body">
         <h2 class="event-title">{{ event.title }}</h2>
-        {% if event.stat %}<p class="event-stat">{{ event.stat }}</p>{% endif %}
+        {% if event.cohosts and event.cohosts != "" %}<p class="event-cohosts">with {{ event.cohosts }}</p>{% endif %}
+
+        <div class="event-meta">
+          {% if event.location %}<span class="event-meta-item">📍 {{ event.location }}</span>{% endif %}
+          {% if event.headcount %}<span class="event-meta-item">👥 {{ event.headcount }}</span>{% endif %}
+        </div>
+
         {% if event.description %}<p class="event-desc">{{ event.description }}</p>{% endif %}
 
         {% if event.photos and event.photos.size > 0 %}
         <div class="event-photos">
           {% for photo in event.photos %}
-          <a href="{{ photo }}" class="event-photo" target="_blank">
-            <img src="{{ photo }}" alt="{{ event.title }} photo" loading="lazy">
+          <a href="{{ photo }}" class="event-photo" target="_blank" aria-label="{{ event.title }} photo {{ forloop.index }}">
+            <img src="{{ photo }}" alt="{{ event.title }} photo {{ forloop.index }}" loading="lazy">
           </a>
           {% endfor %}
         </div>
         {% endif %}
 
-        {% if event.link %}
+        {% if event.link and event.upcoming != true %}
         <a href="{{ event.link }}" class="event-link" target="_blank">the invite &rarr;</a>
         {% endif %}
       </div>

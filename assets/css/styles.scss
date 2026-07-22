@@ -462,13 +462,8 @@ a:hover{
 }
 
 .events-intro h1 {
-  margin: 0 0 6px;
-  font-size: 2rem;
-}
-
-.events-intro p {
   margin: 0;
-  color: #5b5b52;
+  font-size: 2rem;
 }
 
 /* horizontal flow that wraps */
@@ -517,29 +512,67 @@ a:hover{
   border-radius: 999px;
 }
 
+.event-flag {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  background: #e28743;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 5px 11px;
+  border-radius: 999px;
+}
+
 .event-body {
   padding: 18px 20px 22px;
   color: #063970;
 }
 
 .event-title {
-  margin: 0 0 6px;
+  margin: 0 0 4px;
   font-size: 1.3rem;
   color: #1e81b0;
 }
 
-.event-stat {
-  margin: 0 0 10px;
+.event-cohosts {
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+  color: #5b5b52;
+  font-style: italic;
+}
+
+.event-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-bottom: 12px;
   font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
+  font-weight: 600;
   color: #e28743;
+}
+
+.event-meta-item {
+  white-space: nowrap;
 }
 
 .event-desc {
   margin: 0 0 16px;
   line-height: 1.55;
   font-size: 0.96rem;
+}
+
+/* upcoming events: muted, no photos yet */
+.event-upcoming {
+  opacity: 0.72;
+  filter: grayscale(0.35);
+}
+
+.event-upcoming:hover {
+  opacity: 1;
+  filter: grayscale(0);
 }
 
 /* album photos — drop paths into `photos:` in _data/events.yml */
