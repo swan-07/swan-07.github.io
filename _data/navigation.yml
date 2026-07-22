@@ -8,6 +8,8 @@
   link: /research.html
 - name: blog
   link: /blog.html
+- name: events
+  link: /events.html
 # - name: reading list
 #   link: /media
 # - name: bucket list

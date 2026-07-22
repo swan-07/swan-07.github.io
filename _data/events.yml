@@ -1,0 +1,21 @@
+# events i've hosted — sorted newest-first automatically by `date`
+# to add one: copy a block. `date` must stay YYYY-MM-DD for correct sorting.
+# optional keys: description, image, link, stat, photos (list of image paths)
+
+- title: "4th of July Party"
+  date: "2026-07-04"
+  displaydate: "Sat, Jul 4 2026"
+  stat: "80+ friends"
+  description: "a rooftop fourth of july party in brooklyn! beautiful view of 4 different fireworks shows."
+  image: "assets/images/events/july4.webp"
+  link: "https://partiful.com/e/VV3ctgIeDTdZ3O0490lG"
+  photos: []
+
+- title: "Spring Silicon Poker Night"
+  date: "2026-06-26"
+  displaydate: "Fri, Jun 26 2026"
+  stat: "30+ friends · my first event!"
+  description: "poker night at my friends' startup in brooklyn w pizza and 30+ friends from ramp, two sigma, yale, etc."
+  image: "assets/images/events/poker-night.webp"
+  link: "https://partiful.com/e/fF8iZKNuv4OqfaGlobsy"
+  photos: []

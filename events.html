@@ -1,0 +1,45 @@
+---
+layout: default
+title: Events
+---
+
+<section id="events">
+  <div class="events-intro">
+    <h1>events</h1>
+    <p>things i've hosted :)</p>
+  </div>
+
+  {% assign events = site.data.events | sort: 'date' | reverse %}
+  <div class="event-grid">
+    {% for event in events %}
+    <article class="event-card">
+      {% if event.image %}
+      <div class="event-cover">
+        <img src="{{ event.image }}" alt="{{ event.title }}" loading="lazy">
+        <span class="event-date">{{ event.displaydate }}</span>
+      </div>
+      {% endif %}
+
+      <div class="event-body">
+        <h2 class="event-title">{{ event.title }}</h2>
+        {% if event.stat %}<p class="event-stat">{{ event.stat }}</p>{% endif %}
+        {% if event.description %}<p class="event-desc">{{ event.description }}</p>{% endif %}
+
+        {% if event.photos and event.photos.size > 0 %}
+        <div class="event-photos">
+          {% for photo in event.photos %}
+          <a href="{{ photo }}" class="event-photo" target="_blank">
+            <img src="{{ photo }}" alt="{{ event.title }} photo" loading="lazy">
+          </a>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if event.link %}
+        <a href="{{ event.link }}" class="event-link" target="_blank">the invite &rarr;</a>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
