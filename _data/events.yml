@@ -8,7 +8,7 @@
   time: "12:00pm"
   location: "San Francisco"
   headcount: "15 going"
-  cohosts: ""
+  cohosts: "I"
   description: "a +1 lunch in sf during startup school — everyone brings a friend the others don't know :)"
   cover: "assets/images/events/lunch/cover.webp"
   upcoming: true
@@ -43,7 +43,7 @@
   time: "7:00pm"
   location: "Soma Capital"
   headcount: "25 came"
-  cohosts: ""
+  cohosts: "SA"
   description: "mafia / secret hitler / one night ultimate werewolf at the soma capital office. costume theme: greek pantheon. no experience needed, we taught everyone :)"
   cover: "assets/images/events/mafia/cover.webp"
   link: "https://partiful.com/e/pu6CtGzoTFAjJBDQQaNg"
