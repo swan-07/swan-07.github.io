@@ -11,7 +11,10 @@
   cohosts: "I"
   description: "a +1 lunch in sf during startup school — everyone brings a friend the others don't know :)"
   cover: "assets/images/events/lunch/cover.webp"
-  photos: []
+  photos:
+    - "assets/images/events/lunch/01.webp"
+    - "assets/images/events/lunch/02.webp"
+    - "assets/images/events/lunch/03.webp"
 
 - title: "Poker Night @ NYU"
   date: "2026-07-17"
