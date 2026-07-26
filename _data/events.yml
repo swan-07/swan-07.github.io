@@ -7,11 +7,10 @@
   displaydate: "Fri, Jul 25 2026"
   time: "12:00pm"
   location: "San Francisco"
-  headcount: "15 going"
+  headcount: "34 came"
   cohosts: "I"
   description: "a +1 lunch in sf during startup school — everyone brings a friend the others don't know :)"
   cover: "assets/images/events/lunch/cover.webp"
-  upcoming: true
   photos: []
 
 - title: "Poker Night @ NYU"
