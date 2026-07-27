@@ -22,7 +22,7 @@ title: Events
 
       <div class="event-body">
         <h2 class="event-title">{{ event.title }}</h2>
-        {% if event.cohosts and event.cohosts != "" %}<p class="event-cohosts">with {{ event.cohosts }}</p>{% endif %}
+        {% if event.cohosts and event.cohosts != "" %}<p class="event-cohosts">cohosted with {{ event.cohosts }}</p>{% endif %}
 
         <div class="event-meta">
           {% if event.location %}<span class="event-meta-item">📍 {{ event.location }}</span>{% endif %}

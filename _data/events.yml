@@ -1,4 +1,4 @@
-# events i've hosted — newest first (sorted by `date`, YYYY-MM-DD).
+# events i've hosted - newest first (sorted by `date`, YYYY-MM-DD).
 # photos are globbed folders under assets/images/events/<slug>/.
 # cohosts: fill in per event to show a 'with __' line.
 
@@ -9,7 +9,7 @@
   location: "San Francisco"
   headcount: "34 came"
   cohosts: "I"
-  description: "a +1 lunch in sf during startup school — everyone brings a friend the others don't know :)"
+  description: "a +1 lunch in sf during startup school - everyone brings a friend the others don't know :)"
   cover: "assets/images/events/lunch/cover.webp"
   photos:
     - "assets/images/events/lunch/01.webp"
@@ -23,7 +23,7 @@
   location: "NYU dorms"
   headcount: "27 came"
   cohosts: ""
-  description: "poker in the nyu intern dorm lobby — buy-ins from free to $100, pizza sponsored by zfellows, feat. grace from zfellows."
+  description: "poker in the nyu intern dorm lobby - buy-ins from free to $100, pizza sponsored by zfellows, feat. grace from zfellows."
   cover: "assets/images/events/nyupoker/cover.webp"
   link: "https://partiful.com/e/WrjbDKOB6pEoP5ImVdrm"
   photos:
@@ -66,7 +66,7 @@
   location: "Brooklyn rooftop"
   headcount: "80+ came"
   cohosts: "DM, ML"
-  description: "a rooftop fourth of july party in brooklyn — food, drinks, and a beautiful view of 4 different fireworks shows."
+  description: "a rooftop fourth of july party in brooklyn - food, drinks, and a beautiful view of 4 different fireworks shows."
   cover: "assets/images/events/july4.webp"
   link: "https://partiful.com/e/VV3ctgIeDTdZ3O0490lG"
   photos:
@@ -94,7 +94,7 @@
   location: "Brooklyn @ friend's startup"
   headcount: "31 came"
   cohosts: "DM, ML"
-  description: "my first event! poker night at a startup — buy-ins $5/$20/$100, pizza, and friends from ramp, two sigma, yale, etc."
+  description: "my first event! poker night at a startup - buy-ins $5/$20/$100, pizza, and friends from ramp, two sigma, yale, etc."
   cover: "assets/images/events/poker-night.webp"
   link: "https://partiful.com/e/fF8iZKNuv4OqfaGlobsy"
   photos:
