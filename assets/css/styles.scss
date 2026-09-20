@@ -49,32 +49,7 @@ body {
   width: auto;
   max-width: none;       /* override #intro img { max-width: 200px } */
   border-radius: 0;
-  z-index: 1;            /* sharp painting sits above its blurred bleed copy */
-  /* feather the sharp painting's edges so it melts into the blurred copy
-     below (no hard sharp->blur seam) */
-  -webkit-mask:
-    linear-gradient(to right, transparent, #000 15%, #000 85%, transparent),
-    linear-gradient(to bottom, transparent, #000 12%, #000 88%, transparent);
-  -webkit-mask-composite: source-in;
-  mask:
-    linear-gradient(to right, transparent, #000 15%, #000 85%, transparent),
-    linear-gradient(to bottom, transparent, #000 12%, #000 88%, transparent);
-  mask-composite: intersect;
-}
-
-/* Blurred, slightly enlarged copy of the painting BEHIND the sharp one, so the
-   painting's colours bleed OUT past its hard canvas edges into the cream. */
-.pfp-reveal::before {
-  content: "";
-  position: absolute;
-  top: calc(var(--face-y) - 48vh - 40px);
-  left: calc(50% - 16.3vh);
-  transform: translateX(-50%);
-  height: calc(100vh + 80px);
-  aspect-ratio: 1600 / 1180;   /* match Exit's proportions */
-  background: url('/assets/images/art/ballerina.webp') center / cover no-repeat;
-  filter: blur(30px);
-  opacity: 1;
+  z-index: 1;
 }
 
 .pfp-cover {
