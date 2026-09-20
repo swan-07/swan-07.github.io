@@ -34,7 +34,7 @@ title: Events
         {% if event.photos and event.photos.size > 0 %}
         <div class="event-photos">
           {% for photo in event.photos %}
-          <a href="{{ photo }}" class="event-photo" target="_blank" aria-label="{{ event.title }} photo {{ forloop.index }}">
+          <a href="{{ photo }}" class="event-photo" aria-haspopup="dialog" aria-label="{{ event.title }} photo {{ forloop.index }}">
             <img src="{{ photo }}" alt="{{ event.title }} photo {{ forloop.index }}" loading="lazy">
           </a>
           {% endfor %}
@@ -52,3 +52,16 @@ title: Events
     {% endfor %}
   </div>
 </section>
+
+<dialog class="photo-lightbox" aria-label="Event photos">
+  <button type="button" class="photo-lightbox-close" aria-label="Close photo">&times;</button>
+  <figure>
+    <img class="photo-lightbox-image" alt="">
+    <figcaption aria-live="polite"></figcaption>
+  </figure>
+  <div class="photo-lightbox-controls">
+    <button type="button" class="photo-lightbox-prev" aria-label="Previous photo">&larr;</button>
+    <button type="button" class="photo-lightbox-next" aria-label="Next photo">&rarr;</button>
+  </div>
+</dialog>
+<script src="/assets/js/event-photos.js" defer></script>
