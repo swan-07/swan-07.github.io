@@ -49,6 +49,7 @@ body {
   width: auto;
   max-width: none;       /* override #intro img { max-width: 200px } */
   border-radius: 0;
+  clip-path: inset(0.2% 1% 0.2% 0.2%); /* trim the photographed white border */
   z-index: 1;
 }
 
