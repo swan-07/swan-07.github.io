@@ -42,8 +42,8 @@ body {
 
 .pfp-reveal img {
   position: absolute;
-  top: -50px;            /* nudge the painting up to match the raised face hole */
-  left: 50%;
+  top: calc(var(--face-y) - 48vh); /* center the reveal on the dancer */
+  left: calc(50% - 16.3vh);
   transform: translateX(-50%);
   height: 100vh;         /* full photo, no cropping */
   width: auto;
@@ -67,12 +67,12 @@ body {
 .pfp-reveal::before {
   content: "";
   position: absolute;
-  top: -90px;
-  left: 50%;
+  top: calc(var(--face-y) - 48vh - 40px);
+  left: calc(50% - 16.3vh);
   transform: translateX(-50%);
   height: calc(100vh + 80px);
-  aspect-ratio: 1692 / 2000;   /* match the painting's proportions */
-  background: url('/assets/images/sw_pfp.webp?v=3') center / cover no-repeat;
+  aspect-ratio: 1600 / 1180;   /* match Exit's proportions */
+  background: url('/assets/images/art/ballerina.webp') center / cover no-repeat;
   filter: blur(30px);
   opacity: 1;
 }
