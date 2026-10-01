@@ -2,11 +2,9 @@
 
 source "https://rubygems.org"
 
-# gem "rails"
-gem "github-pages"
-
-
-gem "jekyll"
+# Same Jekyll version GitHub Pages builds with; the github-pages meta-gem is
+# omitted because it pins a vulnerable rubyzip via jekyll-remote-theme.
+gem "jekyll", "~> 3.10"
 gem "kramdown-parser-gfm"
 
 
