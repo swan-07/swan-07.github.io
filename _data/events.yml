@@ -2,6 +2,18 @@
 # photos are globbed folders under assets/images/events/<slug>/.
 # cohosts: fill in per event to show a 'with __' line.
 
+- title: "MATS Dinner Debate 1: Should Open Source AI Be Banned?"
+  date: "2026-10-09"
+  displaydate: "Thu, Oct 9 2026"
+  location: "Berkeley"
+  cohosts: ""
+  description: "the first mats dinner debate - fellows argued over dinner about whether open source ai should be banned."
+  cover: "assets/images/events/mats-debate-1/cover.webp"
+  photos:
+    - "assets/images/events/mats-debate-1/01.webp"
+    - "assets/images/events/mats-debate-1/02.webp"
+    - "assets/images/events/mats-debate-1/03.webp"
+
 - title: "5 of Spades"
   date: "2026-09-05"
   displaydate: "Fri, Sep 5 2026"
