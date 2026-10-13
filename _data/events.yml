@@ -4,10 +4,11 @@
 
 - title: "MATS Dinner Debate 1: Should Open Source AI Be Banned?"
   date: "2026-10-09"
-  displaydate: "Thu, Oct 9 2026"
+  displaydate: "Fri, Oct 9 2026"
   location: "Berkeley"
+  headcount: "20 came"
   cohosts: ""
-  description: "the first mats dinner debate - fellows argued over dinner about whether open source ai should be banned."
+  description: "the first mats dinner debate - fellows debated over dinner about whether open source ai should be banned."
   cover: "assets/images/events/mats-debate-1/cover.webp"
   photos:
     - "assets/images/events/mats-debate-1/01.webp"
