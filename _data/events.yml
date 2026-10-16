@@ -2,6 +2,28 @@
 # photos are globbed folders under assets/images/events/<slug>/.
 # cohosts: fill in per event to show a 'with __' line.
 
+- title: "AI SafeTea Tasting"
+  date: "2026-10-15"
+  displaydate: "Thu, Oct 15 2026"
+  time: "5:00-7:00pm"
+  location: "Berkeley"
+  headcount: "37 came"
+  cohosts: ""
+  description: "community tea with mats fellows and friends - the ai safety community got together to taste a bunch of different teas (and cookies)."
+  cover: "assets/images/events/ai-safetea/cover.webp"
+  link: "https://partiful.com/e/CiRLhhVDawiO2HtJV522"
+  photos:
+    - "assets/images/events/ai-safetea/01.webp"
+    - "assets/images/events/ai-safetea/02.webp"
+    - "assets/images/events/ai-safetea/03.webp"
+    - "assets/images/events/ai-safetea/04.webp"
+    - "assets/images/events/ai-safetea/05.webp"
+    - "assets/images/events/ai-safetea/06.webp"
+    - "assets/images/events/ai-safetea/07.webp"
+    - "assets/images/events/ai-safetea/08.webp"
+    - "assets/images/events/ai-safetea/09.webp"
+    - "assets/images/events/ai-safetea/10.webp"
+
 - title: "MATS Dinner Debate 1: Should Open Source AI Be Banned?"
   date: "2026-10-09"
   displaydate: "Fri, Oct 9 2026"
